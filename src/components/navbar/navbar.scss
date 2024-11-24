@@ -1,0 +1,82 @@
+nav{
+    max-width: 100%;
+    background-color: rgba(34, 179, 193, 1);
+    display: flex;
+    justify-content: center;   
+
+    .navbar-container{
+        width: 1420px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 270px;
+        
+
+        
+           
+            .navbar-logo{
+                width: auto;
+                height: auto;
+                
+                img{
+                    width: 159px;
+                    height: 41px;
+                    
+                }
+            }
+
+            .navbar-menu{
+                display: flex;
+                font-size: 16px;
+                // gap: 20px;
+                li{
+                    a{
+                        color: #fff;
+                        font-weight: 400;
+                        font-size: 15px;
+                        text-transform: capitalize;
+                        letter-spacing: 0.5px;
+                        cursor: pointer;
+                        font-family: "Poppins", serif;
+                        font-weight: 500;
+                        font-style: normal;
+                        padding: 8px 15px;
+                    }
+                }
+            }
+          
+                
+                .navbar-language{
+                    width: auto;
+                    display: flex;
+                    align-items: start;
+                     gap: 20px;
+                     li{
+                        
+                        a{
+                            
+                            color: #fff;
+                        font-weight: 400;
+                        font-size: 15px;
+                        text-transform: capitalize;
+                        letter-spacing: 0.5px;
+                        cursor: pointer;
+                        font-family: "Poppins", serif;
+                        font-weight: 500;
+                        font-style: normal;
+
+                        }
+                        i{
+                            font-size: 20px;
+                        }
+                     }
+                  
+                    
+                    
+                    
+                }
+            }
+
+      
+    }

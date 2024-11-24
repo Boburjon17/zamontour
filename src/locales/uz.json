@@ -1,0 +1,40 @@
+{
+    "navbar" : {
+        "Sahifa": "bosh sahifa",
+        "bizHaqimizda" :" biz haqimizda",
+        "turlar" :"turlar",
+        "kontaktlar" :"kontaktlar"
+    },
+    "intro" :{
+        "siz yoqtirib qolishingiz aniq bo'lgan shahar":"siz yoqtirib qolishingiz aniq bo'lgan shahar",
+        "dubai" :"dubai",
+        "istanbul":"istanbul",
+        "antaliya":"antaliya",
+        "Sharm El-Sheikh":"Sharm El-Sheikh",
+        "borishni xohlaysizmi": "borishni xohlaysizmi",
+        "aholisi":   "aholisi",
+      
+        "hududi":"hududi",
+        "o'rtacha narx": "o'rtacha narx",
+        "ko'proq bilish": "ko'proq bilish"
+
+    },
+    "weeks":{
+        "Eng yaxshi haftalik takliflarimiz":"Eng yaxshi haftalik takliflarimiz",
+        "har bir shahar":"har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling.",
+        "aqsh":"aqsh",
+        "kanada":"kanada",
+        "yevropa":"yevropa",
+        "angiliya":"angliya",
+        "buyurtmalar":"buyurtmalar",
+        "tur ichi":"tur ichiga nimalar kiradi",
+        "kunlik sayohat": "kunlik sayohat",
+        "mehmonxona": "mehmonxona",
+        "aviabilet":"aviabilet",
+        "eng yaxshi manzillar":"eng yaxshi manzillar",
+        "joy band":"joy band qilish",
+        "kishi":"kishi"
+
+
+}
+}

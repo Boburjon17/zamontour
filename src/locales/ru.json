@@ -1,0 +1,41 @@
+{
+    "navbar" : {
+        "Sahifa": "главня",
+        "bizHaqimizda" :" О нас",
+        "turlar" :"Туры",
+        "kontaktlar" :"Контакты"
+    },
+    "intro" :{
+        "siz yoqtirib qolishingiz aniq bo'lgan shahar":"Загляните в красивый город",
+        "dubai" :"Дубай",
+        "istanbul":"стамбул",
+        "antaliya":"анталия",
+        "Sharm El-Sheikh":"Шарм-эль-Шейх",
+        "borishni xohlaysizmi": "перейти",
+        "aholisi":   "Население",
+       
+        "hududi":"Территория",
+        "o'rtacha narx": "Средняя цена",
+        "ko'proq bilish": "узнать волыще"
+
+    },
+    "weeks":{
+        "Eng yaxshi haftalik takliflarimiz":"Лучшие еженедельные предложения в каждом городе",
+        "har bir shahar":"Откройте для себя лучшие еженедельные предложения в каждом городе, специально подобранные для вас. Погрузитесь в мир скидок и наслаждайтесь непревзойденными впечатлениями.",
+        "aqsh":"США",
+        "kanada":"канада",
+        "yevropa":"европа",
+        "angiliya":"англия",
+        "buyurtmalar":"регистратций",
+        "tur ichi":"включено в предложения",
+        "kunlik sayohat": "дневое путешествие",
+        "mehmonxona": "прожевание в отеле",
+        "aviabilet":"включено авиабилеты",
+        "eng yaxshi manzillar":"Посещение достопримечательностей ежедневно",
+        "joy band":"Забронировать",
+        "kishi":"челобек"
+
+
+}
+
+}

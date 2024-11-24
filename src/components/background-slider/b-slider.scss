@@ -1,0 +1,155 @@
+
+
+
+
+
+
+
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  position: relative;
+
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: background-image .3s ease-in-out; /* Smooth transition */
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  .intro-slider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .intro-top{
+      width: auto;
+      height: auto;
+      margin-top: 150px;
+      h2{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+      }
+      h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        margin: 20px 0 30px 0;
+      }
+
+      a{
+        button{
+          width: 129.03px;
+         height: 47px;
+         border-radius: 25px ;
+         border: none;
+         background-color: #22B3C1;
+         font-size: 14px;
+         line-height: 21px;
+         font-weight: 500;
+         color: #FFFFFF;
+
+
+        }
+      }
+
+    }
+    .intro-bottom{
+      width: 80%;
+      height: 122px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 61px;
+      background-color: #FFFFFF;
+      margin-bottom: 100px;
+     
+
+      .intro-bottom-left{
+        width: 75%;
+        display: flex;
+        color: grey;
+        display: flex;
+        justify-content: space-evenly;
+
+        .intro-card{
+          width: 30%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          .intro-img{
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // border: 2px solid rgb(0, 166, 255);
+            border: 1px solid #22B3C1;
+            border-radius: 50%;
+            i{
+              font-size: 30px;
+              color: #22B3C1;
+            }
+          }
+          .intro-text{
+            width: 75%;
+            height: 100%;
+            line-height: 28px;
+            text-align: start;
+            p{
+              font-size: 15px;
+              font-weight: 400;
+             
+              color: #AFAFAF;
+            }
+            h3{
+              font-size: 20px;
+              font-weight: 700;
+              color: #22B3C1;
+              
+            }
+          }
+        }
+
+      }
+      .intro-bottom-right{
+        width: 20%;
+        a{
+         button{
+          padding: 13px 30.65px 14px 31px;
+          border-radius: 25px;
+          color: #FFFFFF;
+          background-color: #22B3C1;
+          border: none;          
+         }
+         
+
+
+        }
+      }
+    }
+  }
+}
+
+

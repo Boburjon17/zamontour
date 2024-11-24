@@ -1,0 +1,42 @@
+
+{
+    "navbar" : {
+        "Sahifa": "home",
+        "bizHaqimizda" :" about",
+        "turlar" :"tours",
+        "kontaktlar" :"contacts"
+    },
+    "intro" :{
+        "siz yoqtirib qolishingiz aniq bo'lgan shahar":"Take a Glimpse Into The Beautiful City Of",
+        "dubai" :"dubai",
+        "istanbul":"istanbul",
+        "antaliya":"antalya",
+        "Sharm El-Sheikh":"Sharm El-Sheikh",
+        "borishni xohlaysizmi": "go there",
+        "aholisi":   "Population",
+      
+        "hududi":"Territory",
+        "o'rtacha narx": "AVG Price",
+        "ko'proq bilish": "Explore More"
+
+    },
+    "weeks":{
+        "Eng yaxshi haftalik takliflarimiz":"Best Weekly Offers In Each City",
+        "har bir shahar":"Discover the best weekly offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
+        "aqsh":"USA",
+        "kanada":"canada",
+        "yevropa":"european union",
+        "angiliya":"england",
+        "buyurtmalar":"check ins",
+        "tur ichi":"deal includes",
+        "kunlik sayohat": "days trip",
+        "mehmonxona": "hotel included",
+        "aviabilet":"airplane bill included",
+        "eng yaxshi manzillar":"daily places visit",
+        "joy band":"make a reservation",
+        "kishi":"person"
+
+
+}
+
+}
