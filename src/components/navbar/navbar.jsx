@@ -1,7 +1,7 @@
 
 import './navbar.scss'
 import { useTranslation } from 'react-i18next'
-import zamonlogo from "../../assets/images/zamon.logo.svg"
+// import zamonlogo from "../../assets/images/zamon.logo.svg"
 
 const Navbar = () => {
 
@@ -18,7 +18,7 @@ const Navbar = () => {
 
        <a href="/" className="navbar-logo">
     
-        <img src={zamonlogo} alt="" />
+        <img src="/images/zamon.logo.svg" alt="" />
 
         </a>
        
