@@ -1,7 +1,7 @@
 import  { useTranslation } from 'react-i18next'
 
 import './b-slider.scss'
-// Import Swiper React components
+import bslider1 from "../../assets/images/b-slider.jfif"
 
 
 // Import Swiper styles
