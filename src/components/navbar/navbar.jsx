@@ -17,7 +17,7 @@ const Navbar = () => {
 
        <a href="/" className="navbar-logo">
     
-        <img src="./images/zamon.logo.svg" alt="" />
+        <img src="/images/zamon.logo.svg" alt="" />
 
         </a>
        
