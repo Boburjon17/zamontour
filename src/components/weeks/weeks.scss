@@ -4,8 +4,9 @@
  
   
   .swiper {
-    width: 100%;
+    width: 1280pxpx;
     height: 100%;
+    
   }
   
   .swiper-slide {
@@ -17,14 +18,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 386px;
+    .weeks-page{
+      display: flex;
+      width:100%;
+      border: 2px solid red;
+      position: relative;
+      
+     
+      .weeks-page-left{
+        width: 386px;
+        height: 318px;
+        img{
+          width: 75%;
+          height: 100%;
+        }
+      }
+      .weeks-page-right{
+        width: 271px;
+        height: auto;
+        z-index: 999;
+        background-color:  #FFFFFF;;
+        position: absolute;
+        left: 80px;
+        top: 30px;
+      
+        border-radius: 23px;
+
+        box-shadow: 0px 0px 15px 0px #00000026;
+
+
+        .weeks-city{
+          display: flex;
+        }
+
+      }
+    }
   }
   
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  
   
   
   

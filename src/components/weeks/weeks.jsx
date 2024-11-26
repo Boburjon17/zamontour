@@ -26,13 +26,15 @@ const Weeks = () => {
 
         <>
       <Swiper
+      slidesPerView={3}
         spaceBetween={30}
-        centeredSlides={true}
+        centeredSlides={false}
         modules={[Autoplay, Pagination, Navigation]}
         // autoplay={{
         //   delay: 2500,
         //   disableOnInteraction: false,
         // }}
+
         pagination={{
           clickable: false,
         }}
@@ -42,21 +44,294 @@ const Weeks = () => {
       >
         <SwiperSlide> 
           <div className="weeks-page">
-            <div className="weeks-page-left"></div>
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/usa1.jpg" alt="" />
+            </div>
             <div className="weeks-page-right">
-              <div className="weeks-page-right-top"></div>
+              <div className="weeks-city">
+              <h1>{t("weeks.aqsh")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
 
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
             </div>
           </div>
 
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
+
+        <SwiperSlide> 
+          <div className="weeks-page">
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/eng.jpg" alt="" /></div>
+            <div className="weeks-page-right">
+              <div className="weeks-city">
+              <h1>{t("weeks.angliya")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
+
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
+            </div>
+          </div>
+
+        </SwiperSlide>
+
+
+        <SwiperSlide> 
+          <div className="weeks-page">
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/cand.jpg" alt="" />
+            </div>
+            <div className="weeks-page-right">
+              <div className="weeks-city">
+              <h1>{t("weeks.kanada")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
+
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
+            </div>
+          </div>
+
+        </SwiperSlide>
+
+
+        <SwiperSlide> 
+          <div className="weeks-page">
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/europe2.jpg" alt="" />
+            </div>
+            <div className="weeks-page-right">
+              <div className="weeks-city">
+              <h1>{t("weeks.yevropa")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
+
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
+            </div>
+          </div>
+
+        </SwiperSlide>
+
+
+
+        <SwiperSlide> 
+          <div className="weeks-page">
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/deals-04.jpg" alt="" />
+            </div>
+            <div className="weeks-page-right">
+              <div className="weeks-city">
+              <h1>{t("intro.istanbul")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
+
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
+            </div>
+          </div>
+
+        </SwiperSlide>
+
+
+
+        <SwiperSlide> 
+          <div className="weeks-page">
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/offers-02.jpg" alt="" />
+            </div>
+            <div className="weeks-page-right">
+              <div className="weeks-city">
+              <h1>{t("intro.dubai")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
+
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
+            </div>
+          </div>
+
+        </SwiperSlide>
+
+
+
+        <SwiperSlide> 
+          <div className="weeks-page">
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/deals-01.jpg" alt="" />
+            </div>
+            <div className="weeks-page-right">
+              <div className="weeks-city">
+              <h1>{t("intro.antaliya")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
+
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
+            </div>
+          </div>
+
+        </SwiperSlide>
+
+
+
+        <SwiperSlide> 
+          <div className="weeks-page">
+            <div className="weeks-page-left">
+              <img src="https://zamontour.uz/assets/images/offers-01.jpg" alt="" />
+            </div>
+            <div className="weeks-page-right">
+              <div className="weeks-city">
+              <h1>{t("intro.Sharm El-Sheikh")}</h1>
+              <h2>$700</h2>
+              </div>
+              <div className="weeks-order">
+              <span><i className="fa-solid fa-people-group"></i>
+              <h3>{t("weeks.buyurtmalar")}</h3>
+              </span>
+              <p>/{t("weeks.kishi")}</p>
+              
+              </div>
+              <hr />
+              <div className="weeks-includes">
+                <h1>{t("weeks.tur ichi")}</h1>
+                <ul>
+                  <li><i className="fa-solid fa-taxi"></i> 5 {t("weeks.kunlik sayohat")}&gt; {t("weeks.mehmonxona")} </li>
+                  <li><i className="fa-solid fa-plane"></i>{t("weeks.aviabilet")}</li>
+                  <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
+                </ul>
+
+                <a href="#"><button>{t("weeks.joy band")}</button></a>
+              </div>
+              
+            </div>
+          </div>
+
+        </SwiperSlide>
+
+
+
+        
+               
+
+
+
+
+       
         <div className="autoplay-progress" slot="container-end">
          
           {/* <span ref={progressContent}></span> */}
