@@ -16,10 +16,10 @@ const Bslider = () => {
   const [textIndex, setTextIndex] = useState(0);
 
   const backgrounds = [
-    'url("src/assets/images/b-slider.jfif")',
-    'url("src/assets/images/b-slider2.jfif")',
-    'url("src/assets/images/b-slider3.jfif")',
-    'url("src/assets/images/b-slider4.jfif")',
+    'url("public/images/b-slider.jfif")',
+    'url("public/images/b-slider2.jfif")',
+    'url("public/images/b-slider3.jfif")',
+    'url("public/images/b-slider3.jfif")',
 
   ];
   const data = [
