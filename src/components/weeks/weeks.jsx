@@ -1,17 +1,23 @@
 import React, { useRef } from 'react'
 import "./weeks.scss"
 import { useTranslation } from 'react-i18next'
-import {Swiper, SwiperSlide} from 'swiper/react'
-import {Autoplay, Pagination, Navigation } from 'swiper/modules';
+// import { Autoplay, Pagination, Navigation } from 'swiper';
 
+// import { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
 import 'swiper/css';
-import 'swiper/cs ms/autoplay';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 const Weeks = () => {
   const {t, i18n} = useTranslation()
+ 
 
   
 
@@ -19,26 +25,30 @@ const Weeks = () => {
   return (
     <div className='weeks-container'>
       <div className="weeks">
-        <h1>{t("weeks.Eng yaxshi haftalik takliflarimiz")}</h1>
-        <p>{t("weeks.har bir shahar")}</p>
+        <h4>{t("weeks.Eng yaxshi haftalik takliflarimiz")}</h4>
+        <h6>{t("weeks.har bir shahar")}</h6>
 
         <div className="weeks-slide">
 
-        <>
+        
       <Swiper
       slidesPerView={3}
         spaceBetween={30}
         centeredSlides={false}
+        loop={true}
         modules={[Autoplay, Pagination, Navigation]}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
 
         pagination={{
           clickable: false,
         }}
-        navigation={false}
+        navigation={{
+          nextEl: '.weeks-right-next',
+          prevEl: '.weeks-left-next',
+        }}
       
         className="mySwiper"
       >
@@ -54,7 +64,7 @@ const Weeks = () => {
               </div>
               <div className="weeks-order">
               <span><i className="fa-solid fa-people-group"></i>
-              <h3>{t("weeks.buyurtmalar")}</h3>
+              <h3>300 {t("weeks.buyurtmalar")}</h3>
               </span>
               <p>/{t("weeks.kishi")}</p>
               
@@ -337,10 +347,18 @@ const Weeks = () => {
           {/* <span ref={progressContent}></span> */}
         </div>
       </Swiper>
-    </>
+
+      
+        
 
 
         </div>
+        
+        <div   className="weeks-pagination">
+        <div className="weeks-left-next"><i className="fa-solid fa-arrow-left"></i></div>
+        <div  className="weeks-right-next"><i className="fa-solid fa-arrow-right"></i></div>
+        
+          </div> 
       </div>
     </div>
   )

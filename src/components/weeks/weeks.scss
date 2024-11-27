@@ -1,60 +1,243 @@
-#app {
-    height: 100%;
-  }
- 
-  
+.weeks-container{
+
+  max-width: 100%;
+  .weeks{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4{
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 36px;
+      margin-top: 70px;
+
+    }
+    h6{
+      width: 640px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 30px;
+      color: #AFAFAF;
+      text-align: center;
+      margin: 24px 0 85px 0;
+    }
+
+    
+
+
+.weeks-slide{
+  width: 100%;
+  // border: 2px solid gold;
+
   .swiper {
-    width: 1280pxpx;
+    width: 1280px;
     height: 100%;
     
-  }
   
+      .swiper-pagination{
+        display: none !important;
+  
+    }
+    
+  }
   .swiper-slide {
+    width: auto;
     text-align: center;
     font-size: 18px;
     background: #fff;
+   
   
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 386px;
     .weeks-page{
       display: flex;
-      width:100%;
-      border: 2px solid red;
+      width:386px;
+      height: 420px;
       position: relative;
       
      
       .weeks-page-left{
         width: 386px;
         height: 318px;
-        img{
-          width: 75%;
-          height: 100%;
-        }
+        text-align: left;
+
+
+      img{
+        width: 70%;
+        height: 100%;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+      }
+        
       }
       .weeks-page-right{
         width: 271px;
         height: auto;
+        padding: 30px;
         z-index: 999;
         background-color:  #FFFFFF;;
         position: absolute;
-        left: 80px;
+        right: 0;
         top: 30px;
-      
         border-radius: 23px;
-
         box-shadow: 0px 0px 15px 0px #00000026;
+
 
 
         .weeks-city{
           display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          
+          h1{ 
+          line-height: 24px;
+          font-weight: 700;
+          font-size: 20px;
+
+
+          }
+          h2{
+            line-height: 24px;
+            font-weight: 700;
+            font-size: 20px;
+            color: #22B3C1;
+            
+          }
         }
+        .weeks-order{
+          width: auto;
+          display: flex;
+          justify-content: space-between;
+          margin: 5px 0;
+
+          span{
+            width: 100%;
+            display: flex;
+            gap: 5px;
+            color: #AFAFAF;
+            i{
+              font-weight: 900;
+              font-size: 15px;
+              line-height: 15px;
+            }
+            h3  {
+              font-weight: 400;
+           font-size: 15px;
+              line-height: 18px;
+            }
+          }
+          p{
+            font-weight: 400;
+              
+              line-height: 18px;
+              color: #AFAFAF;
+          }
+
+        }
+
+        hr{
+          width: 100%;
+          margin: 27px 0 26px 0;
+          border: 1px solid  #AFAFAF;
+        }
+
+        .weeks-includes{
+          width: 100%;
+          h1{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            color: #2A2A2A;
+            text-align: start;
+          }
+
+          ul{
+            
+            li{
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              color: #AFAFAF;
+              font-size: 14px;
+              line-height: 21px;
+              margin: 11px 0;
+              i{
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 14px;
+
+              }
+            }
+          }
+          a{
+          
+            button{
+              margin-top: 20px;
+              
+            padding: 13px 30.69px 14px 31px;
+            border-radius: 25px;
+            background-color:#22B3C1 ;
+            color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+            transition: all .5s ease;
+            &:hover{
+              color:#22B3C1 ;
+              background-color: #FFFFFF;
+              border: 1px solid #22B3C1;
+            }
+            }
+           
+            
+          }
+        }
+
 
       }
     }
   }
+}  
+
+.weeks-pagination{
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  .weeks-left-next, .weeks-right-next{
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+    border: 1px solid #22B3C1;
+    color: #22B3C1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+    &:hover{
+      transition: all .5s ease;
+      background-color: #22B3C1;
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+    }
+  }
+ 
+}
+    
+   
+  }
+
+
+
+}
+ 
+  
+ 
   
   
   

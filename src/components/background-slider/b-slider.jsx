@@ -14,13 +14,13 @@ const Bslider = () => {
   const [backgroundIndex, setBackgroundIndex] = useState(0);
   const [textIndex, setTextIndex] = useState(0);
 
-  // const backgrounds = [
-  //   'url("public/images/b-slider.jfif")',
-  //   'url("public/images/b-slider2.jfif")',
-  //   'url("public/images/b-slider3.jfif")',
-  //   'url("public/images/b-slider3.jfif")',
+  const backgrounds = [
+    'url("public/images/b-slider.jfif")',
+    'url("public/images/b-slider2.jfif")',
+    'url("public/images/b-slider3.jfif")',
+    'url("public/images/b-slider3.jfif")',
 
-  // ];
+  ];
   const data = [
     {
       name: t('intro.dubai'),
