@@ -36,5 +36,34 @@
         "kishi":"kishi"
 
 
+},
+"visa":{
+    "viza olish" :"viza olishga yordam beramiz",
+    "biz sizga oson":"Biz sizga oson, tez fursatda va albatta ishonchli viza olishga yordam beramiz.",
+    "hindiston":"hindiston",
+    "saudiya arabistoni": "saudiya arabistoni",
+    "omon":"omon",
+    "xitoy":"xitoy",
+    "xong kong":"xong kong",
+    "yevropa":"yevropa(shengen)",
+    "yaponiya":"yaponiya",
+    "royxat":"ro'yxatdan o'tganlar",
+    "bizning xizmat" : "bizning xizmatlar o'z ichiga oladi",
+    "eng arzon":"eng arzon narxlar",
+    "tezkor":"tezkor ishlash vaqti",
+    "ishonch":"ishonchli yordam"
+
+},
+"explore":{
+    "chipta":"Chiptalarni biz bilan arzon va oson toping",
+    "har bir shahar":"Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping",
+    "temir yol":"Temir Yo‘l Biletleri Biz Bilan",
+    "butu":"Butun dunyo bo'ylab",
+    "koproq":"ko'proq bilish",
+    "yol orqali":"Temir yo'l orqali biz bilan sarguzashtlarni kashf eting! Baland tog'larni, betakror tabiat manzalarni, qadimiy va navqiron shaharlarni, takrorlanmas landshaflarni biz bilan birga toping. Qiziqarlimi? Biz bilan bog'laning.",
+    "aviabiletlar biz bilan":"Aviabiletlar Biz Bilan Arzon",
+    "jahon boylab":"Jahon bo‘ylab Manzillar",
+    "eng arzon qulay":"Eng arzon, qulay, xavfsiz aviabiletlar biz bilan! Bizga bog'laning, biz sizga eng maqbul bo'ladigan aviabilerni topib beramiz"
+
 }
 }

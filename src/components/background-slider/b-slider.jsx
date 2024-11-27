@@ -18,7 +18,7 @@ const Bslider = () => {
     'url("public/images/b-slider.jfif")',
     'url("public/images/b-slider2.jfif")',
     'url("public/images/b-slider3.jfif")',
-    'url("public/images/b-slider3.jfif")',
+    'url("public/images/b-slider4.jfif")',
 
   ];
   const data = [
@@ -59,7 +59,7 @@ const Bslider = () => {
     const intervalId = setInterval(() => {
       setBackgroundIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
       setTextIndex((prevIndex) => (prevIndex + 1) % data.length);
-    }, 5000); // 5 soniyada bir o'zgarish
+    }, 3000); // 5 soniyada bir o'zgarish
 
     return () => clearInterval(intervalId); // Component unmount bo'lganda intervalni to'xtatish
   }, []);

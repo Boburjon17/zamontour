@@ -1,0 +1,89 @@
+.explore-container{
+    max-width: 100%;
+    .explore{
+        width: 80%;
+       margin: 0 auto;
+     
+        h1{
+            width: 40%;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36px;
+            color: #2A2A2A;
+        }
+        h6{
+            width: 40%;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #AFAFAF;
+            margin: 24px 0 85px 0;
+        }
+        .explore-realway{
+            width: 100%;
+            display: flex;
+            align-items: start;
+            gap: 24px;
+            .explore-realway-img{
+                width: 30%;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 23px;
+                }
+            }
+            .explore-realway-text{
+                width: 57%;
+                .text-title{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .text-subtitle{
+                        display: block;
+                        h2{
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            color: #2A2A2A;
+                        }
+                        p{
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 22.5px;
+                            color: #AFAFAF;
+                            margin: 5px 0;
+                        }
+                    }
+                    a{
+                        width: auto;
+                        button{
+                            padding: 13px 30.65px 14px 31px;
+                           border-radius: 25px;
+                           border: none;
+                           background-color: #22B3C1;
+                           color: #FFFFFF;
+                         
+                           &:hover{
+                            transition: all .5s  ease;
+                            color: #22B3C1;
+                            background-color: #FFFFFF;
+                            border: 1px solid #22B3C1;
+
+                           }
+
+                        }
+                    }
+                   
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #AFAFAF;
+                    margin-top: 22px;
+                }
+            }
+        }
+    }
+}

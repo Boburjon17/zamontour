@@ -33,9 +33,10 @@ const Weeks = () => {
         
       <Swiper
       slidesPerView={3}
+      slidesPerGroup={1}
         spaceBetween={30}
         centeredSlides={false}
-        loop={true}
+        
         modules={[Autoplay, Pagination, Navigation]}
         autoplay={{
           delay: 2500,
@@ -359,7 +360,9 @@ const Weeks = () => {
         <div  className="weeks-right-next"><i className="fa-solid fa-arrow-right"></i></div>
         
           </div> 
+         
       </div>
+      <hr />
     </div>
   )
 }

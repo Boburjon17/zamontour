@@ -1,9 +1,11 @@
 
+import { Link } from 'react-router-dom'
 import './navbar.scss'
 import { useTranslation } from 'react-i18next'
+import { useRef } from 'react'
 // import zamonlogo from "../../assets/images/zamon.logo.svg"
 
-const Navbar = () => {
+const Navbar = ({homeRef,aboutRef,tourRef,contactRef}) => {
 
 
  
@@ -11,6 +13,12 @@ const Navbar = () => {
  const onChangeLanguage =(lang) => 
  {
   i18n.changeLanguage(lang)
+ }
+
+
+
+ const scrollTOSection= (sectionRef)=>{
+  sectionRef.current.scrollIntoView({behavior:'smooth'})
  }
   return (
     <nav>
@@ -24,10 +32,10 @@ const Navbar = () => {
        
 
         <ul className='navbar-menu'  >
-            <li><a href="#home"> {t('navbar.Sahifa')}</a></li>
-            <li><a href="#about"> {t('navbar.bizHaqimizda')}</a></li>
-            <li><a href="#tour"> {t('navbar.turlar')}</a></li>
-            <li><a href="#contact">{t('navbar.kontaktlar')}</a></li>
+            <li><a href='#'onClick={()=>scrollTOSection(homeRef)}> {t('navbar.Sahifa')}</a></li>
+            <li><a href='#'onClick={()=>scrollTOSection(aboutRef)} > {t('navbar.bizHaqimizda')}</a></li>
+            <li><a href='#'onClick={()=>scrollTOSection(tourRef)}> {t('navbar.turlar')}</a></li>
+            <li><a href='#'onClick={()=>scrollTOSection(contactRef)}>{t('navbar.kontaktlar')}</a></li>
         </ul>
         <ul  id='lng' className='navbar-language' >
           
