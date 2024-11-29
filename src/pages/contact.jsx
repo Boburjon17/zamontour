@@ -1,8 +1,11 @@
 import React from 'react'
+import Reservation from '../components/reservation/reservation'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <Reservation/>
+    </div>
   )
 }
 

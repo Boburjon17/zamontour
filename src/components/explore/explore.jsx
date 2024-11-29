@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next'
 
 const Explore = () => {
     const {t, i18n}= useTranslation()
+    
+
   return (
     <div className='explore-container'>
         <div className="explore">
@@ -29,6 +31,8 @@ const Explore = () => {
                 </div>
                 
             </div>
+
+            <hr />
             <div className="explore-air">
                 <div className="explore-air-img">
                     <img src="https://zamontour.uz/assets/images/airplane.jpg" alt="" />
@@ -36,7 +40,7 @@ const Explore = () => {
                 <div className="explore-air-text">
                     <div className="air-text-small">
                         <div className="air-subtitle">
-                            <h1>{t("explore.aviabiletlar biz bilan")}</h1>
+                            <h2>{t("explore.aviabiletlar biz bilan")}</h2>
                             <p>{t("explore.jahon boylab")}</p>
                         </div>
 
@@ -47,6 +51,7 @@ const Explore = () => {
                 </div>
 
             </div>
+            <hr />
         </div>
     </div>
   )

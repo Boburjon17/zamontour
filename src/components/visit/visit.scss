@@ -1,0 +1,138 @@
+.visit-container{
+    max-width: 100%;
+    .visit{
+        width: 80%;
+        margin: 0 auto;
+        h1{
+            width: 40%;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36px;
+            color: #2A2A2A;
+        }
+        h6{
+            width: 40%;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #AFAFAF;
+            margin: 24px 0 85px 0;
+        }
+        .visit-page{
+            width: 100%;
+            display: flex;
+            gap: 24px;
+            
+            .visit-page-img{
+                width: 30%;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: auto;
+                    border-radius: 23px;
+                }
+
+            }
+            .visit-page-text{
+                width: 60%;
+                .text-title{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: start;
+                    .text-subtitle{
+                        width: auto;
+                        text-align: start;
+                        h2{
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            color: #2A2A2A;
+                        }
+                        h5{
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 22.5px;
+                            color: #AFAFAF;
+                            margin-top: 5px;
+                        }
+                    }
+                    a{
+                        width: auto;
+                        button{
+                           padding: 13px 30.65px 14px 31px;
+                           background-color: #22B3C1;
+                           color: #FFFFFF;
+                           border-radius: 25px;
+                           border: none;
+                           &:hover{
+                            transition: all .3s ease;
+                            color: #22B3C1;
+                            background-color: #FFFFFF;
+                            border: 1px solid #22B3C1;
+                           }
+
+
+                        }
+                    }
+                   
+                    
+
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 400 ;
+                    line-height: 30px;
+                    color: #AFAFAF;
+                    margin: 22px 0 23px 0;
+                }
+                hr{
+                    width: 100%;
+                  color:  #AFAFAF;
+
+                }
+                .visit-directions{
+                    width: 100%;
+                 
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: #AFAFAF;
+                        margin: 18px 0 ;
+                        li{
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                            i{
+                                font-size: 16px;
+                                line-height: 16px;
+                            }
+                           
+                        }
+                    }
+                    a{
+                        width: auto;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 21px;
+                        color: #22B3C1;
+                        display: flex;
+                        gap: 5px;
+                        align-items: center;
+                        margin-top: 22px;
+                        
+                    }
+                }
+            }
+        }
+        .hr-big{
+            width: 92%;
+            color: #AFAFAF;
+            margin: 30px 0;
+        }
+    }
+}
