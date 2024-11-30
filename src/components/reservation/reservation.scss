@@ -1,8 +1,100 @@
 .r-container{
     max-width: 100%;
-    background-image: url('');
+    background-image: url('public/images/reservations.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 0;
     .reservation{
         width: 100%;
+        height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    //    position: relative;
+
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-top: 260px;
+        }
+        h1{
+            font-size: 50px;
+            line-height: 60px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin: 15px 0 30px 0;
+            
+        }
+        a{
+            width: auto;
+            button{
+                padding: 13px 30.64px 14px 31px;
+                border-radius: 25px;
+                border: none;
+                background-color: #FFFFFF;
+                color: #22B3C1;
+                &:hover{
+                    background-color: #22B3C1;
+                    color: #FFFFFF;
+                
+                }
+
+
+            }
+        }
+
+        .connect{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 98px;
+           
+            .connect-small{
+                width: 416px;
+                background-color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 30px 0;
+                border-radius: 23px;
+                // position: absolute;
+                margin-bottom: -99px;
+                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+
+                .connect-icon{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: #F0F0F0;
+                    color: #22B3C1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        font-size: 20px;
+                        font-weight: 900;
+                        line-height: 60px;
+                    }
+                }
+                h3{
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: #2A2A2A;
+                    margin:  22px 0 11px 0;
+                }
+                a{
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 22.5px;
+                    color: #22B3C1;
+                }
+            }
+        }
 
     }
 

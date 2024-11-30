@@ -24,7 +24,7 @@ const Weeks = () => {
   
   return (
     <div className='weeks-container'>
-      <div className="weeks">
+      <div className="weeks" id='tour'>
         <h4>{t("weeks.Eng yaxshi haftalik takliflarimiz")}</h4>
         <h6>{t("weeks.har bir shahar")}</h6>
 

@@ -11,6 +11,7 @@ const About = () => {
     <div>
      <Explore/>
      <Visit/>
+     
     
     </div>
   )

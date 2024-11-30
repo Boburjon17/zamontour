@@ -32,10 +32,10 @@ const Navbar = ({homeRef,aboutRef,tourRef,contactRef}) => {
        
 
         <ul className='navbar-menu'  >
-            <li><a href='#'onClick={()=>scrollTOSection(homeRef)}> {t('navbar.Sahifa')}</a></li>
-            <li><a href='#'onClick={()=>scrollTOSection(aboutRef)} > {t('navbar.bizHaqimizda')}</a></li>
-            <li><a href='#'onClick={()=>scrollTOSection(tourRef)}> {t('navbar.turlar')}</a></li>
-            <li><a href='#'onClick={()=>scrollTOSection(contactRef)}>{t('navbar.kontaktlar')}</a></li>
+            <li><a href='#home'onClick={()=>scrollTOSection(homeRef)}> {t('navbar.Sahifa')}</a></li>
+            <li><a href='#about'onClick={()=>scrollTOSection(aboutRef)} > {t('navbar.bizHaqimizda')}</a></li>
+            <li><a href='#tour'onClick={()=>scrollTOSection(tourRef)}> {t('navbar.turlar')}</a></li>
+            <li><a href='#contact'onClick={()=>scrollTOSection(contactRef)}>{t('navbar.kontaktlar')}</a></li>
         </ul>
         <ul  id='lng' className='navbar-language' >
           

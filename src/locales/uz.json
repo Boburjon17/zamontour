@@ -89,5 +89,23 @@
     "telefon":"Telefon raqam",
     "email":"Bizga email orqali bog'laning",
     "ofis":"Ofisimizga tashrif buyuring"
+},
+"maps":{
+    "oz":"o'z",
+    "joyi":"joyingizni",
+    "band":"band",
+    "qiling":"qiling",
+    "ism":"ismingiz",
+    "tel raqam":"telefon raqamingiz",
+    "necha kishi":"necha kishisiz",
+    "uchish":"uchish sanasi",
+    "manzil":"manzilingizni tanlang",
+    "viza" :"viza turini tanlang",
+     "band qilish": "band  qilish"
+},
+"footer":{
+    "sayohat":"Sayohat qilishni xohlaysizmi?",
+    "unda":"Unda biz bilan hoziroq bog'laning",
+    "boglanish":"bog'lanish"
 }
 }

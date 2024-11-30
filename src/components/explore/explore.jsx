@@ -8,7 +8,7 @@ const Explore = () => {
 
   return (
     <div className='explore-container'>
-        <div className="explore">
+        <div className="explore" id='about'>
             <h1>{t('explore.chipta')}</h1>
             <h6>{t("explore.har bir shahar")}</h6>
             <div className="explore-realway">

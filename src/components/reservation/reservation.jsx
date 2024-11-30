@@ -6,12 +6,12 @@ const Reservation = () => {
     const {t,i18n} = useTranslation()
   return (
     <div className='r-container'>
-        <div className="reservation">
-            <h1>{t("reservations.ozingiz")}</h1>
-            <p>{t("reservations.oz joy")}</p>
+        <div className="reservation"  >
+            <p id='contact'>{t("reservations.ozingiz")}</p>
+            <h1>{t("reservations.oz joy")}</h1>
              <a href="#"><button>{t("explore.koproq")}</button></a>
 
-             <div className="connect">
+             <div className="connect" >
                 <div className="connect-small">
                     <div className="connect-icon">
                     <i className="fa-solid fa-phone-flip"></i>
@@ -24,7 +24,7 @@ const Reservation = () => {
 
                 <div className="connect-small">
                     <div className="connect-icon">
-                    <i className="fa-solid fa-phone-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                     </div>
                     <h3>{t("reservations.email")}</h3>
                     <a href="#">zamonbizbestour@mail.ru</a>
@@ -34,7 +34,7 @@ const Reservation = () => {
 
                 <div className="connect-small">
                     <div className="connect-icon">
-                    <i class="fa-solid fa-location-pin"></i>
+                    <i className="fa-solid fa-location-pin"></i>
                     </div>
                     <h3>{t("reservations.ofis")}</h3>
                     <a href="#">15/25, Chilonzor - 9, Toshkent city</a>

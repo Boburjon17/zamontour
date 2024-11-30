@@ -85,5 +85,30 @@
     "eng manzillar":"Best Locations",
     "har bir locations":"Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences"
 
+},
+"reservations":{
+    "ozingiz":"Book Prefered Deal Here",
+    "oz joy":"Make Your Reservation",
+    "telefon":"Make a Phone Call",
+    "email":"Contact Us via Emailg",
+    "ofis":"Visit Our Offices"
+},
+"maps":{
+    "oz":"Make Your",
+    "joyi":"Reservation",
+    "band":"Through This",
+    "qiling":"Form",
+    "ism":"Your Name",
+    "tel raqam":"Your Phone Number",
+    "necha kishi":"Number Of Guests",
+    "uchish":"Check In Date",
+    "manzil":"Choose Your Destination",
+    "viza" :"Choose Your Visa Support",
+     "band qilish": "Make Your Reservation Now"
+},
+"footer":{
+    "sayohat":"Are You Looking To Travel ?",
+    "unda":"Make A Reservation By Clicking The Button",
+    "boglanish":"book yours now"
 }
 }

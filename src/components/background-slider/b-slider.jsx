@@ -65,12 +65,12 @@ const Bslider = () => {
   }, []);
 
   return (
-    <div className="app">
+    <div className="app" >
       <div
         className="background"
         style={{ backgroundImage: backgrounds[backgroundIndex] }}
       ></div>
-      <div className="content">
+      <div className="content" id='home'>
         <div className="intro-slider">
           <div className="intro-top">
             <h2>{t("intro.siz yoqtirib qolishingiz aniq bo'lgan shahar")}:</h2>

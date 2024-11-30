@@ -6,7 +6,7 @@ const Visit = () => {
   const {t, i18n} = useTranslation()
   return (
     <div className='visit-container'>
-      <div className="visit">
+      <div className="visit" id='visit'>
         <h1>{t("visit.shaharlardan")}</h1>
         <h6>{t("visit.har bir visit")}</h6>
 
