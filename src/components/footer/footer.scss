@@ -56,3 +56,235 @@
     }
     
 }
+@media screen and (max-width:320px) {
+    .footer-container{
+        max-width: 100%;
+        
+        .footer{
+            width: 90%;
+            margin: 10px auto;
+            display: block;
+            .footer-title{
+                width: 100%;
+            
+                h1{
+                    width: 100%;
+                    font-size: 30px;
+                    
+                }
+                p{
+                    font-size: 18px;
+                    
+                }
+            }
+          
+        }
+        .footer-end{
+     
+            p{
+              
+                
+                padding: 15px 0;
+                
+            }
+        }
+        
+    }  
+}
+@media screen and (min-width:321px) and (max-width:480px) {
+    .footer-container{
+        max-width: 100%;
+        margin: 0;
+        
+        .footer{
+            width: 90%;
+            margin: 10px auto;
+            display: block;
+            .footer-title{
+                width: 100%;
+                padding: 70px  0;
+                margin: 0;
+           
+                h1{
+                    width: 100%;
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 20px;
+                   
+    
+                }
+            }
+       
+        }
+        .footer-end{
+            width: 100%;
+            p{
+                font-size:15px ;
+                padding: 15px 0;
+                
+            }
+        }
+        
+    }  
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    .footer-container{
+        max-width: 100%;
+        margin: 0;
+        
+        .footer{
+            width: 95%;
+            margin: 10px auto;
+            display: block;
+            .footer-title{
+                width: 100%;
+                padding: 70px  0;
+                margin: 0;
+           
+                h1{
+                    width: 100%;
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 20px;
+                   
+    
+                }
+            }
+       
+        }
+        .footer-end{
+            width: 100%;
+            p{
+                font-size:15px ;
+                padding: 15px 0;
+                
+            }
+        }
+        
+    }  
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .footer-container{
+        max-width: 100%;
+        margin: 0;
+        
+        .footer{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            .footer-title{
+                width: 70%;
+                padding: 70px  0;
+                margin: 0;
+           
+                h1{
+                    width: 100%;
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 20px;
+                   
+    
+                }
+               
+            }
+            a{
+                width: 30%;
+            }
+       
+        }
+        .footer-end{
+            width: 100%;
+            p{
+                font-size:15px ;
+                padding: 15px 0;
+                
+            }
+        }
+        
+    }  
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .footer-container{
+        max-width: 100%;
+        margin: 0;
+        
+        .footer{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            .footer-title{
+                width: 70%;
+                padding: 70px  0;
+                margin: 0;
+           
+                h1{
+                    width: 100%;
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 20px;
+                   
+    
+                }
+               
+            }
+            a{
+                width: 30%;
+            }
+       
+        }
+        .footer-end{
+            width: 100%;
+            p{
+                font-size:15px ;
+                padding: 15px 0;
+                
+            }
+        }
+        
+    }  
+}
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .footer-container{
+        max-width: 100%;
+        margin: 0;
+        
+        .footer{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            .footer-title{
+                width: 70%;
+                padding: 70px  0;
+                margin: 0;
+           
+                h1{
+                    width: 100%;
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 20px;
+                   
+    
+                }
+               
+            }
+            a{
+                width: 30%;
+            }
+       
+        }
+        .footer-end{
+            width: 100%;
+            p{
+                font-size:15px ;
+                padding: 15px 0;
+                
+            }
+        }
+        
+    }  
+}

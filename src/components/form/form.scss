@@ -158,3 +158,360 @@
         }
     }
 }
+
+@media screen and (max-width:320px) {
+    .form-container{
+        max-width: 100%;
+    
+        .form{
+            width: 100%;
+            margin: 0 auto;
+            background-color: #F9F9F9;
+        
+            .myForm{
+                width: 90%;
+                height: auto;
+                margin: 0 auto;
+                .form-name-phone{
+                    width: 100%;
+                    display: block;
+                    
+                   
+                    label{
+                        width: 100%;
+                        display: block;
+                        
+                     
+    
+                    }
+    
+                }
+                .form-person-check{
+                    width: 100%;
+                    display: block;
+                    label{
+                        width: 100%;
+                        display: block;
+                        
+                      
+                        .form-person{
+                            width: 100%;
+                           
+                        }
+                        
+    
+                    }
+    
+                }
+                .form-adress{
+                    width: 100%;
+                   
+                    #adress{
+                        width: 100%;
+                    
+    
+                    }
+                }
+    
+                .form-visa{
+                    width: 100%;
+                    
+                    #visa{
+                        width: 100%;
+                       
+    
+                    }
+                }
+             
+            }
+        }
+    }
+}
+@media screen and (min-width:321px) and (max-width:480px) {
+    .form-container{
+        max-width: 100%;
+        .form{
+            width: 100%;
+            margin: 0 auto;
+            background-color: #F9F9F9;
+        
+            .myForm{
+                width: 85%;
+                height: auto;
+                margin: 0 auto;
+                .form-name-phone{
+                    width: 100%;
+                    display: block;
+                    
+                   
+                    label{
+                        width: 100%;
+                        display: block;
+                        
+                     
+    
+                    }
+    
+                }
+                .form-person-check{
+                    width: 100%;
+                    display: block;
+                    label{
+                        width: 100%;
+                        display: block;
+                        
+                      
+                        .form-person{
+                            width: 100%;
+                           
+                        }
+                        
+    
+                    }
+    
+                }
+                .form-adress{
+                    width: 100%;
+                   
+                    #adress{
+                        width: 100%;
+                    
+    
+                    }
+                }
+    
+                .form-visa{
+                    width: 100%;
+                    
+                    #visa{
+                        width: 100%;
+                       
+    
+                    }
+                }
+             
+            }
+        }
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    .form-container{
+        max-width: 100%;
+        .form{
+            width: 100%;
+            margin: 0 auto;
+            background-color: #F9F9F9;
+        
+            h1{
+                width: 90%;
+                margin:  0 auto;
+    
+            }
+            .myForm{
+                width: 80%;
+                height: auto;
+                margin: 0 auto;
+                .form-name-phone{
+                    width: 100%;
+                    display: block;
+                    
+                   
+                    label{
+                        width: 100%;
+                        display: block;
+                        
+                     
+    
+                    }
+    
+                }
+                .form-person-check{
+                    width: 100%;
+                    display: block;
+                    label{
+                        width: 100%;
+                        display: block;
+                        
+                      
+                        .form-person{
+                            width: 100%;
+                           
+                        }
+                        
+    
+                    }
+    
+                }
+                .form-adress{
+                    width: 100%;
+                   
+                    #adress{
+                        width: 100%;
+                    
+    
+                    }
+                }
+    
+                .form-visa{
+                    width: 100%;
+                    
+                    #visa{
+                        width: 100%;
+                       
+    
+                    }
+                }
+             
+            }
+        }
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .form-container{
+        max-width: 100%;
+        .form{
+            width: 100%;
+            margin: 0 auto;
+            background-color: #F9F9F9;
+        
+            h1{
+                width: 90%;
+                font-size: 30px;
+                margin:  0 auto;
+           
+    
+            }
+            .myForm{
+                width: 90%;
+                height: auto;
+                margin: 0 auto;
+                .form-name-phone{
+                    width: 100%;
+                    display: flex;
+                    
+                   
+                    label{
+                        width: 48%;
+                        display: block;
+                        
+                     
+    
+                    }
+    
+                }
+                .form-person-check{
+                    width: 100%;
+                    display: flex;
+                    label{
+                        width: 48%;
+                        display: block;
+                        
+                      
+                        .form-person{
+                            width: 100%;
+                           
+                        }
+                        
+    
+                    }
+    
+                }
+                .form-adress{
+                    width: 100%;
+                   
+                    #adress{
+                        width: 100%;
+                    
+    
+                    }
+                }
+    
+                .form-visa{
+                    width: 100%;
+                    
+                    #visa{
+                        width: 100%;
+                       
+    
+                    }
+                }
+             
+            }
+        }
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .form-container{
+        max-width: 100%;
+     
+        .form{
+            width: 80%;
+            margin: 0 auto;
+            background-color: #F9F9F9;
+        
+            h1{
+                width: 90%;
+                font-size: 30px;
+                margin:  0 auto;
+           
+    
+            }
+            .myForm{
+                width: 80%;
+                height: auto;
+                margin: 0 auto;
+                .form-name-phone{
+                    width: 100%;
+                    display: flex;
+                    
+                   
+                    label{
+                        width: 48%;
+                        display: block;
+                        
+                     
+    
+                    }
+    
+                }
+                .form-person-check{
+                    width: 100%;
+                    display: flex;
+                    label{
+                        width: 48%;
+                        display: block;
+                        
+                      
+                        .form-person{
+                            width: 100%;
+                           
+                        }
+                        
+    
+                    }
+    
+                }
+                .form-adress{
+                    width: 100%;
+                   
+                    #adress{
+                        width: 100%;
+                    
+    
+                    }
+                }
+    
+                .form-visa{
+                    width: 100%;
+                    
+                    #visa{
+                        width: 100%;
+                       
+    
+                    }
+                }
+             
+            }
+        }
+    }
+}

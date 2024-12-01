@@ -13,3 +13,66 @@
 
     }
 }
+@media screen  and (max-width:320px) {
+ 
+    .maps-container{
+        max-width: 100%;
+       
+        .maps{
+            width: 90%;
+            height: 65vh;
+            
+    
+         
+            margin: 10px auto 0 ;
+            .iframe{
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+    }
+    
+}
+@media screen and (min-width:321px)  and (max-width:480px) {
+ 
+    .maps-container{
+        max-width: 100%;
+       
+        .maps{
+            width: 90%;
+            height: 65vh;
+            
+    
+         
+            margin: 10px auto 0 ;
+            .iframe{
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+    }
+    
+}
+@media screen and (min-width:481px)  and (max-width:769px) {
+ 
+    .maps-container{
+        max-width: 100%;
+       
+        .maps{
+            width: 90%;
+            height: 65vh;
+            
+    
+         
+            margin: 10px auto 0 ;
+            .iframe{
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+    }
+    
+}
