@@ -32,8 +32,35 @@ const Visa = () => {
 
         
       <Swiper
-      slidesPerView={3}
-        spaceBetween={30}
+         breakpoints={{
+          slidesPerView:1,
+          spaceBetween:10,
+          320:{
+            slidesPerView:1,
+            spaceBetween:10
+           
+          },
+          481:{
+            slidesPerView:1,
+            spaceBetween:10
+           
+          },
+          769:{
+            slidesPerView:2,
+            spaceBetween:30
+           
+          },
+          1025:{
+            slidesPerView:3,
+            spaceBetween:30
+           
+          },
+          1201:{
+            slidesPerView:3,
+            spaceBetween:30
+           
+          }
+        }}
         centeredSlides={false}
         loop={true}
         modules={[Autoplay, Pagination, Navigation]}
@@ -75,7 +102,7 @@ const Visa = () => {
                   <li><i className="fa-solid fa-check"></i>{t("visa.ishonch")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -106,7 +133,7 @@ const Visa = () => {
                   <li><i className="fa-solid fa-check"></i>{t("visa.ishonch")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -137,7 +164,7 @@ const Visa = () => {
                   <li><i className="fa-solid fa-check"></i>{t("visa.ishonch")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -170,7 +197,7 @@ const Visa = () => {
                   <li><i className="fa-solid fa-check"></i>{t("visa.ishonch")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -203,7 +230,7 @@ const Visa = () => {
                   <li><i className="fa-solid fa-check"></i>{t("visa.ishonch")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -236,7 +263,7 @@ const Visa = () => {
                   <li><i className="fa-solid fa-check"></i>{t("visa.ishonch")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -269,7 +296,7 @@ const Visa = () => {
                   <li><i className="fa-solid fa-check"></i>{t("visa.ishonch")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>

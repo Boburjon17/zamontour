@@ -8,7 +8,7 @@ nav{
     z-index: 1000;
 
     .navbar-container{
-        width: 1420px;
+        width: auto;
         height: 70px;
         display: flex;
         justify-content: center;
@@ -79,7 +79,672 @@ nav{
                     
                     
                 }
+                #bars{
+                    display: none !important;
+                }
+                .bars{
+                    display: none;
+                }
+                
             }
 
       
     }
+
+    @media screen  and (max-width:320px) {
+        nav{
+            max-width: 100%;
+            
+            position: relative;
+          
+        
+            .navbar-container{
+                width: 100%;
+                justify-content: space-between;
+                gap: 0;
+                padding: 0 5px;
+                    .navbar-logo{
+                        width: 40%;
+                        height: auto;
+                       
+                        
+                        img{
+                            width: 100%;
+                            height: 41px;
+                        
+                            
+                        }
+                    }
+        
+                    .navbar-menu{
+                        width: 0;
+                        display: none;
+                    }
+                   
+                        .navbar-language{
+                           width: 0;
+                            display: none;  
+                        }
+                        #bars{
+                            width: 8%;
+                            display:  block !important;
+                           
+                        }
+                       
+                        .bars{
+                            display: block;
+                            width: 100%;
+                            height: 100vh;
+                            justify-content: start;   
+                            position: absolute;
+                            left: -100%;
+                            text-align: start;
+                            top:71px ;
+                            transition: all .3s linear;
+                            z-index: 100;
+                            overflow: hidden;
+                            
+                          
+                            
+                            ul{
+                                width: 100%;
+                                display: block;
+                                
+                               
+                      
+                                li{
+                                    margin: 10px ;
+                                    a{
+                                        display: block;
+                                        font-size: 16px;
+                                    }
+                                    
+                                   
+                                }
+                            }
+                            .bars-language{
+                                display: flex;
+                                
+                                    li{
+                                        a{
+                                           color: #22B3C1; 
+                                           font-size: 18px;
+                                        }
+                                    }
+                                
+                            }
+            
+            
+                            &.active{ 
+                                left: 0;
+                                width: 100%;
+                                height: 100vh;
+                            
+                                background-color: #ccc;
+                                padding: 0 10px;
+                                overflow: hidden;
+                                transition: all .3s linear;
+                               
+                               
+                
+                
+                              
+                
+                                
+                        }
+            
+                          
+            
+                            
+                            
+            
+                          
+            
+                        }
+                    }
+        
+              
+            } 
+        
+    }
+
+    @media screen and (min-width:321px) and (max-width:480px) {
+        nav{
+            max-width: 100%;
+            
+            position: relative;
+          
+        
+            .navbar-container{
+                width: 100%;
+                justify-content: space-between;
+                gap: 0;
+                padding: 0 5px;
+                    .navbar-logo{
+                        width: 40%;
+                        height: auto;
+                       
+                        
+                        img{
+                            width: 100%;
+                            height: 41px;
+                        
+                            
+                        }
+                    }
+        
+                    .navbar-menu{
+                        width: 0;
+                        display: none;
+                    }
+                   
+                        .navbar-language{
+                           width: 0;
+                            display: none;  
+                        }
+                        #bars{
+                            width: 8%;
+                            display:  block !important;
+                           
+                        }
+                       
+                        .bars{
+                            display: block;
+                            width: 100%;
+                            height: 100vh;
+                            justify-content: start;   
+                            position: absolute;
+                            left: -100%;
+                            text-align: start;
+                            top:71px ;
+                            transition: all .3s linear;
+                            z-index: 100;
+                            overflow: hidden;
+                            
+                          
+                            
+                            ul{
+                                width: 100%;
+                                display: block;
+                                
+                               
+                      
+                                li{
+                                    margin: 10px ;
+                                    a{
+                                        display: block;
+                                        font-size: 16px;
+                                    }
+                                    
+                                   
+                                }
+                            }
+                            .bars-language{
+                                display: flex;
+                                
+                                    li{
+                                        a{
+                                           color: #22B3C1; 
+                                           font-size: 18px;
+                                        }
+                                    }
+                                
+                            }
+            
+            
+                            &.active{ 
+                                left: 0;
+                                width: 100%;
+                                height: 100vh;
+                            
+                                background-color: #ccc;
+                                padding: 0 10px;
+                                overflow: hidden;
+                                transition: all .3s linear;
+                               
+                               
+                
+                
+                              
+                
+                                
+                        }
+            
+                          
+            
+                            
+                            
+            
+                          
+            
+                        }
+                    }
+        
+              
+            } 
+        
+    }
+    @media screen and (min-width:481px) and (max-width:768px) {
+        nav{
+            max-width: 100%;
+            
+            position: relative;
+          
+        
+            .navbar-container{
+                width: 100%;
+                justify-content: space-between;
+                gap: 0;
+                padding: 0 5px;
+                    .navbar-logo{
+                        width: 40%;
+                        height: auto;
+                       
+                        
+                        img{
+                            width: 100%;
+                            height: 41px;
+                        
+                            
+                        }
+                    }
+        
+                    .navbar-menu{
+                        width: 0;
+                        display: none;
+                    }
+                   
+                        .navbar-language{
+                           width: 0;
+                            display: none;  
+                        }
+                        #bars{
+                            width: 8%;
+                            display:  block !important;
+                           
+                        }
+                       
+                        .bars{
+                            display: block;
+                            width: 100%;
+                            height: 100vh;
+                            justify-content: start;   
+                            position: absolute;
+                            left: -100%;
+                            text-align: start;
+                            top:71px ;
+                            transition: all .3s linear;
+                            z-index: 100;
+                            overflow: hidden;
+                            
+                          
+                            
+                            ul{
+                                width: 100%;
+                                display: block;
+                                
+                               
+                      
+                                li{
+                                    margin: 10px ;
+                                    a{
+                                        display: block;
+                                        font-size: 16px;
+                                    }
+                                    
+                                   
+                                }
+                            }
+                            .bars-language{
+                                display: flex;
+                                
+                                    li{
+                                        a{
+                                           color: #22B3C1; 
+                                           font-size: 18px;
+                                        }
+                                    }
+                                
+                            }
+            
+            
+                            &.active{ 
+                                left: 0;
+                                width: 100%;
+                                height: 100vh;
+                            
+                                background-color: #ccc;
+                                padding: 0 10px;
+                                overflow: hidden;
+                                transition: all .3s linear;
+                               
+                               
+                
+                
+                              
+                
+                                
+                        }
+            
+                          
+            
+                            
+                            
+            
+                          
+            
+                        }
+                    }
+        
+              
+            } 
+        
+    }
+
+    @media screen and (min-width:769px) and (max-width:1024px) {
+        nav{
+            max-width: 100%;
+            
+            position: relative;
+          
+        
+            .navbar-container{
+                width: 100%;
+                justify-content: space-between;
+                gap: 0;
+                padding: 0 5px;
+                    .navbar-logo{
+                        width: 40%;
+                        height: auto;
+                       
+                        
+                        img{
+                            width: 100%;
+                            height: 41px;
+                        
+                            
+                        }
+                    }
+        
+                    .navbar-menu{
+                        width: 0;
+                        display: none;
+                    }
+                   
+                        .navbar-language{
+                           width: 0;
+                            display: none;  
+                        }
+                        #bars{
+                            width: 8%;
+                            display:  block !important;
+                           
+                        }
+                       
+                        .bars{
+                            display: block;
+                            width: 100%;
+                            height: 100vh;
+                            justify-content: start;   
+                            position: absolute;
+                            left: -100%;
+                            text-align: start;
+                            top:71px ;
+                            transition: all .3s linear;
+                            z-index: 100;
+                            overflow: hidden;
+                            
+                          
+                            
+                            ul{
+                                width: 100%;
+                                display: block;
+                                
+                               
+                      
+                                li{
+                                    margin: 10px ;
+                                    a{
+                                        display: block;
+                                        font-size: 16px;
+                                    }
+                                    
+                                   
+                                }
+                            }
+                            .bars-language{
+                                display: flex;
+                                
+                                    li{
+                                        a{
+                                           color: #22B3C1; 
+                                           font-size: 18px;
+                                        }
+                                    }
+                                
+                            }
+            
+            
+                            &.active{ 
+                                left: 0;
+                                width: 100%;
+                                height: 100vh;
+                            
+                                background-color: #ccc;
+                                padding: 0 10px;
+                                overflow: hidden;
+                                transition: all .3s linear;
+                               
+                               
+                
+                
+                              
+                
+                                
+                        }
+            
+                          
+            
+                            
+                            
+            
+                          
+            
+                        }
+                    }
+        
+              
+            } 
+    }
+
+
+    @media screen and (min-width:1022px) and (max-width:1200px) {
+        nav{
+            max-width: 100%;
+            background-color: rgba(34, 179, 193, 1);
+            display: flex;
+            justify-content: center;   
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        
+            .navbar-container{
+                width: auto;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 80px;
+                
+        
+                
+                   
+                    .navbar-logo{
+                        width: auto;
+                        height: auto;
+                        
+                        img{
+                            width: 159px;
+                            height: 41px;
+                            
+                        }
+                    }
+        
+                    .navbar-menu{
+                        display: flex;
+                        font-size: 16px;
+                        // gap: 20px;
+                        li{
+                            a{
+                                color: #fff;
+                                font-weight: 400;
+                                font-size: 15px;
+                                text-transform: capitalize;
+                                letter-spacing: 0.5px;
+                                cursor: pointer;
+                                font-family: "Poppins", serif;
+                                font-weight: 500;
+                                font-style: normal;
+                                padding: 8px 15px;
+                            }
+                        }
+                    }
+                  
+                        
+                        .navbar-language{
+                            width: auto;
+                            display: flex;
+                            align-items: start;
+                             gap: 20px;
+                             li{
+                                
+                                a{
+                                    
+                                    color: #fff;
+                                font-weight: 400;
+                                font-size: 15px;
+                                text-transform: capitalize;
+                                letter-spacing: 0.5px;
+                                cursor: pointer;
+                                font-family: "Poppins", serif;
+                                font-weight: 500;
+                                font-style: normal;
+        
+                                }
+                                i{
+                                    font-size: 20px;
+                                }
+                             }
+                          
+                            
+                            
+                            
+                        }
+                        #bars{
+                            display: none !important;
+                        }
+                        .bars{
+                            display: none;
+                        }
+                        
+                    }
+        
+              
+            }
+    }
+    @media screen and (min-width:1201px) and (max-width:1400px) {
+        nav{
+            max-width: 100%;
+            background-color: rgba(34, 179, 193, 1);
+            display: flex;
+            justify-content: center;   
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        
+            .navbar-container{
+                width: auto;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 160px;
+                
+                
+        
+                
+                   
+                    .navbar-logo{
+                        width: auto;
+                        height: auto;
+                        
+                        img{
+                            width: 159px;
+                            height: 41px;
+                            
+                        }
+                    }
+        
+                    .navbar-menu{
+                        display: flex;
+                        font-size: 16px;
+                        // gap: 20px;
+                        li{
+                            a{
+                                color: #fff;
+                                font-weight: 400;
+                                font-size: 15px;
+                                text-transform: capitalize;
+                                letter-spacing: 0.5px;
+                                cursor: pointer;
+                                font-family: "Poppins", serif;
+                                font-weight: 500;
+                                font-style: normal;
+                                padding: 8px 15px;
+                            }
+                        }
+                    }
+                  
+                        
+                        .navbar-language{
+                            width: auto;
+                            display: flex;
+                            align-items: start;
+                             gap: 20px;
+                             li{
+                                
+                                a{
+                                    
+                                    color: #fff;
+                                font-weight: 400;
+                                font-size: 15px;
+                                text-transform: capitalize;
+                                letter-spacing: 0.5px;
+                                cursor: pointer;
+                                font-family: "Poppins", serif;
+                                font-weight: 500;
+                                font-style: normal;
+        
+                                }
+                                i{
+                                    font-size: 20px;
+                                }
+                             }
+                          
+                            
+                            
+                            
+                        }
+                        #bars{
+                            display: none !important;
+                        }
+                        .bars{
+                            display: none;
+                        }
+                        
+                    }
+        
+              
+            }
+    }
+

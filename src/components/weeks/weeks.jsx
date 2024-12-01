@@ -32,9 +32,37 @@ const Weeks = () => {
 
         
       <Swiper
-      slidesPerView={3}
-      slidesPerGroup={1}
-        spaceBetween={30}
+      // slidesPerView={3}
+      //   spaceBetween={30}
+        breakpoints={{
+          slidesPerView:1,
+          spaceBetween:10,
+          320:{
+            slidesPerView:1,
+            spaceBetween:10
+           
+          },
+          481:{
+            slidesPerView:1,
+            spaceBetween:10
+           
+          },
+          769:{
+            slidesPerView:2,
+            spaceBetween:20
+           
+          },
+          1025:{
+            slidesPerView:3,
+            spaceBetween:30
+           
+          },
+          1201:{
+            slidesPerView:3,
+            spaceBetween:30
+           
+          }
+        }}
         centeredSlides={false}
         
         modules={[Autoplay, Pagination, Navigation]}
@@ -79,7 +107,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -112,7 +140,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -147,7 +175,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -182,7 +210,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -218,7 +246,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -254,7 +282,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -290,7 +318,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>
@@ -326,7 +354,7 @@ const Weeks = () => {
                   <li><i className="fa-solid fa-building"></i>{t("weeks.eng yaxshi manzillar")}</li>
                 </ul>
 
-                <a href="#"><button>{t("weeks.joy band")}</button></a>
+                <a href="#contact"><button>{t("weeks.joy band")}</button></a>
               </div>
               
             </div>

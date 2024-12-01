@@ -229,6 +229,1041 @@
       margin: 50px 0 40px 0;
     }
 } 
+
+@media screen and (max-width:320px) {
+  .visa-container{
+
+    max-width: 100%;
+  
+    .visa{
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4{
+        text-align: center;
+       
+  
+      }
+      h6{
+        width: 97%;
+       
+      }
+  
+      
+  
+  
+  
+  
+    .swiper {
+      width: 90%;
+      height: auto;
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: auto;
+      height: auto;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .visa-page{
+        display: flex;
+        width:100%;
+        height: 420px;
+        position: relative;
+
+       
+        .visa-page-left{
+          width: 100%;
+          height: 40%;
+          text-align: left;
+  
+  
+        img{
+          width: 70%;
+      
+        }
+          
+        }
+        .visa-page-right{
+          width: 85%;
+          height: auto;
+          padding:  30px 10px;
+         
+  
+  
+  
+          .visa-city{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+  
+            
+            h1{ 
+          
+            font-size: 20px;
+            }
+          
+          }
+          .visa-order{
+            margin: 5px 0;
+            
+  
+        
+              
+              i{
+               
+                font-size: 15px;
+          
+              }
+              h3  {
+          
+             font-size: 15px;
+               
+              }
+            }
+          
+  
+          }
+  
+          hr{
+            width: 100%;
+            margin: 27px 0 26px 0;
+            border: 1px solid  #AFAFAF;
+          }
+  
+          .visa-includes{
+            width: 100%;
+            h1{
+              font-size: 14px;
+             
+            }
+  
+            ul{
+              
+              li{
+                gap: 5px;
+                font-size: 14px;
+                i{
+                  font-size: 14px;
+              
+  
+                }
+              }
+            }
+            a{
+            
+              button{
+                font-size: 14px;
+                margin-top: 20px;
+                
+              
+              }
+             
+              
+            }
+          }
+  
+  
+        }
+      }
+    }
+  
+  
+  .visa-pagination{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+    
+   
+  }
+      
+     
+    
+  
+    hr{
+      width: 100%;
+      border: 1px solid #e4dfdf;
+      margin:20px 0 40px 0;
+    }
+} 
+  
+}
+@media screen and (min-width:321px) and (max-width:480px) {
+  .visa-container{
+
+    max-width: 100%;
+    .visa{
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4{
+        text-align: center;
+       
+  
+      }
+      h6{
+        width: 97%;
+       
+      }
+  
+      
+  
+  
+  
+  
+    .swiper {
+      width: 90%;
+      height: auto;
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: auto;
+      height: auto;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .visa-page{
+        display: flex;
+        width:100%;
+        height: 420px;
+        position: relative;
+        
+       
+        .visa-page-left{
+          width: 100%;
+          height: 40%;
+          text-align: left;
+  
+  
+        img{
+          width: 70%;
+      
+        }
+          
+        }
+        .visa-page-right{
+          width: 85%;
+          height: auto;
+          padding:  30px 10px;
+         
+  
+  
+  
+          .visa-city{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+  
+            
+            h1{ 
+          
+            font-size: 20px;
+            }
+          
+          }
+          .visa-order{
+            margin: 5px 0;
+            
+  
+        
+              
+              i{
+               
+                font-size: 15px;
+          
+              }
+              h3  {
+          
+             font-size: 15px;
+               
+              }
+            }
+          
+  
+          }
+  
+          hr{
+            width: 100%;
+            margin: 27px 0 26px 0;
+            border: 1px solid  #AFAFAF;
+          }
+  
+          .visa-includes{
+            width: 100%;
+            h1{
+              font-size: 14px;
+             
+            }
+  
+            ul{
+              
+              li{
+                gap: 5px;
+                font-size: 14px;
+                i{
+                  font-size: 14px;
+              
+  
+                }
+              }
+            }
+            a{
+            
+              button{
+                font-size: 14px;
+                margin-top: 20px;
+                
+              
+              }
+             
+              
+            }
+          }
+  
+  
+        }
+      }
+    }
+  
+  
+  .visa-pagination{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+    
+   
+  }
+      
+     
+    
+  
+    hr{
+      width: 100%;
+      border: 1px solid #e4dfdf;
+      margin:20px 0 40px 0;
+    }
+} 
+  
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+  .visa-container{
+
+    max-width: 100%;
+    .visa{
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4{
+        text-align: center;
+       
+  
+      }
+      h6{
+        width: 97%;
+       
+      }
+  
+      
+  
+  
+  
+  
+    .swiper {
+      width: 75%;
+      height: auto;
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: auto;
+      height: auto;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .visa-page{
+        display: flex;
+        width:100%;
+        height: 420px;
+        position: relative;
+        
+       
+        .visa-page-left{
+          width: 100%;
+          height: 40%;
+          text-align: left;
+  
+  
+        img{
+          width: 70%;
+      
+        }
+          
+        }
+        .visa-page-right{
+          width: 85%;
+          height: auto;
+          padding:  30px ;
+         
+  
+  
+  
+          .visa-city{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+  
+            
+            h1{ 
+          
+            font-size: 20px;
+            }
+          
+          }
+          .visa-order{
+            margin: 5px 0;
+            
+  
+        
+              
+              i{
+               
+                font-size: 15px;
+          
+              }
+              h3  {
+          
+             font-size: 15px;
+               
+              }
+            }
+          
+  
+          }
+  
+          hr{
+            width: 100%;
+            margin: 27px 0 26px 0;
+            border: 1px solid  #AFAFAF;
+          }
+  
+          .visa-includes{
+            width: 100%;
+            h1{
+              font-size: 14px;
+             
+            }
+  
+            ul{
+              
+              li{
+                gap: 5px;
+                font-size: 14px;
+                i{
+                  font-size: 14px;
+              
+  
+                }
+              }
+            }
+            a{
+            
+              button{
+                font-size: 14px;
+                margin-top: 20px;
+                
+              
+              }
+             
+              
+            }
+          }
+  
+  
+        }
+      }
+    }
+  
+  
+  .visa-pagination{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+    
+   
+  }
+      
+     
+    
+  
+    hr{
+      width: 100%;
+      border: 1px solid #e4dfdf;
+      margin:20px 0 40px 0;
+    }
+} 
+  
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .visa-container{
+
+    max-width: 100%;
+    .visa{
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4{
+        text-align: center;
+       
+  
+      }
+      h6{
+        width: 97%;
+       
+      }
+  
+      
+  
+  
+  
+  
+    .swiper {
+      width: 85%;
+      height: auto;
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: auto;
+      height: auto;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .visa-page{
+        display: flex;
+        width:100%;
+        height: 420px;
+        position: relative;
+        
+       
+        .visa-page-left{
+          width: 100%;
+          height: 40%;
+          text-align: left;
+  
+  
+        img{
+          width: 70%;
+      
+        }
+          
+        }
+        .visa-page-right{
+          width: 85%;
+          height: auto;
+          padding:  30px ;
+         
+  
+  
+  
+          .visa-city{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+  
+            
+            h1{ 
+          
+            font-size: 20px;
+            }
+          
+          }
+          .visa-order{
+            margin: 5px 0;
+            
+  
+        
+              
+              i{
+               
+                font-size: 15px;
+          
+              }
+              h3  {
+          
+             font-size: 15px;
+               
+              }
+            }
+          
+  
+          }
+  
+          hr{
+            width: 100%;
+            margin: 27px 0 26px 0;
+            border: 1px solid  #AFAFAF;
+          }
+  
+          .visa-includes{
+            width: 100%;
+            h1{
+              font-size: 14px;
+             
+            }
+  
+            ul{
+              
+              li{
+                gap: 5px;
+                font-size: 14px;
+                i{
+                  font-size: 14px;
+              
+  
+                }
+              }
+            }
+            a{
+            
+              button{
+                font-size: 14px;
+                margin-top: 20px;
+                
+              
+              }
+             
+              
+            }
+          }
+  
+  
+        }
+      }
+    }
+  
+  
+  .visa-pagination{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+    
+   
+  }
+      
+     
+    
+  
+    hr{
+      width: 100%;
+      border: 1px solid #e4dfdf;
+      margin:20px 0 40px 0;
+    }
+} 
+  
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+  .visa-container{
+
+    max-width: 100%;
+    .visa{
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4{
+        text-align: center;
+       
+  
+      }
+      h6{
+        width: 80%;
+       
+      }
+  
+      
+  
+  
+  
+  
+    .swiper {
+      width: 90%;
+      height: auto;
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: auto;
+      height: auto;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .visa-page{
+        display: flex;
+        width:100%;
+        height: 420px;
+        position: relative;
+        
+       
+        .visa-page-left{
+          width: 100%;
+          height: 40%;
+          text-align: left;
+  
+  
+        img{
+          width: 70%;
+      
+        }
+          
+        }
+        .visa-page-right{
+          width: 85%;
+          height: auto;
+          padding:  30px 15px ;
+         
+  
+  
+  
+          .visa-city{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+  
+            
+            h1{ 
+          
+            font-size: 20px;
+            }
+          
+          }
+          .visa-order{
+            margin: 5px 0;
+            
+  
+        
+              
+              i{
+               
+                font-size: 15px;
+          
+              }
+              h3  {
+          
+             font-size: 15px;
+               
+              }
+            }
+          
+  
+          }
+  
+          hr{
+            width: 100%;
+            margin: 27px 0 26px 0;
+            border: 1px solid  #AFAFAF;
+          }
+  
+          .visa-includes{
+            width: 100%;
+            h1{
+              font-size: 14px;
+             
+            }
+  
+            ul{
+              
+              li{
+                gap: 5px;
+                font-size: 14px;
+                i{
+                  font-size: 14px;
+              
+  
+                }
+              }
+            }
+            a{
+            
+              button{
+                font-size: 14px;
+                margin-top: 20px;
+                
+              
+              }
+             
+              
+            }
+          }
+  
+  
+        }
+      }
+    }
+  
+  
+  .visa-pagination{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+    
+   
+  }
+      
+     
+    
+  
+    hr{
+      width: 100%;
+      border: 1px solid #e4dfdf;
+      margin:20px 0 40px 0;
+    }
+} 
+  
+}
+@media screen and (min-width:1201px) and (max-width:1400px) {
+  .visa-container{
+
+    max-width: 100%;
+ 
+    .visa{
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4{
+        text-align: center;
+       
+  
+      }
+      h6{
+        width: 70%;
+       
+      }
+  
+      
+  
+  
+  
+  
+    .swiper {
+      width: 80%;
+      height: auto;
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: auto;
+      height: auto;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .visa-page{
+        display: flex;
+        width:100%;
+        height: 420px;
+        position: relative;
+        
+       
+        .visa-page-left{
+          width: 100%;
+          height: 40%;
+          text-align: left;
+  
+  
+        img{
+          width: 70%;
+      
+        }
+          
+        }
+        .visa-page-right{
+          width: 85%;
+          height: auto;
+          padding:  30px 15px ;
+         
+  
+  
+  
+          .visa-city{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+  
+            
+            h1{ 
+          
+            font-size: 20px;
+            }
+          
+          }
+          .visa-order{
+            margin: 5px 0;
+            
+  
+        
+              
+              i{
+               
+                font-size: 15px;
+          
+              }
+              h3  {
+          
+             font-size: 15px;
+               
+              }
+            }
+          
+  
+          }
+  
+          hr{
+            width: 100%;
+            margin: 27px 0 26px 0;
+            border: 1px solid  #AFAFAF;
+          }
+  
+          .visa-includes{
+            width: 100%;
+            h1{
+              font-size: 14px;
+             
+            }
+  
+            ul{
+              
+              li{
+                gap: 5px;
+                font-size: 14px;
+                i{
+                  font-size: 14px;
+              
+  
+                }
+              }
+            }
+            a{
+            
+              button{
+                font-size: 14px;
+                margin-top: 20px;
+                
+              
+              }
+             
+              
+            }
+          }
+  
+  
+        }
+      }
+    }
+  
+  
+  .visa-pagination{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+    
+   
+  }
+      
+     
+    
+  
+    hr{
+      width: 100%;
+      border: 1px solid #e4dfdf;
+      margin:20px 0 40px 0;
+    }
+} 
+  
+}
   
   
   

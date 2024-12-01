@@ -22,7 +22,7 @@ const Explore = () => {
                         <p>{t("explore.butu")}</p>
                             
                         </div>
-                        <a href="#"><button>{t("explore.koproq")}</button></a>
+                        <a href="#contact"><button>{t("explore.koproq")}</button></a>
                  
                     </div>
                     <p>{t("explore.yol orqali")}</p>
@@ -44,7 +44,7 @@ const Explore = () => {
                             <p>{t("explore.jahon boylab")}</p>
                         </div>
 
-                        <a href="#"><button>{t("explore.koproq")}</button></a>
+                        <a href="#contact"><button>{t("explore.koproq")}</button></a>
 
                     </div>
                     <p>{t("explore.eng arzon qulay")}</p>

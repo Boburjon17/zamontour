@@ -75,13 +75,13 @@ const Bslider = () => {
           <div className="intro-top">
             <h2>{t("intro.siz yoqtirib qolishingiz aniq bo'lgan shahar")}:</h2>
             <h1>{data[backgroundIndex].name}</h1>
-            <a href="#">
-              <button>{t('intro.borishni xohlaysizmi')}</button>
+            <a href="#contact">
+              <button    >{t('intro.borishni xohlaysizmi')}</button>
             </a>
           </div>
 
           <div className="intro-bottom">
-            <div className="intro-bottom-left">
+          
               <div className="intro-card">
                 <div className="intro-img">
                   <i className="fa-solid fa-user"></i>
@@ -111,15 +111,20 @@ const Bslider = () => {
                   <h3>{data[backgroundIndex].price}</h3>
                 </div>
               </div>
-            </div>
-            <div className="intro-bottom-right">
-              <a href="#">
+              <div className="intro-card">
+
+              <a   href="#contact">
                 <button>{t("intro.ko'proq bilish")}</button>
               </a>
+              </div>
+              
             </div>
+         
+              
+          
           </div>
         </div>
-      </div>
+     
     </div>
   );
 };

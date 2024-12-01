@@ -160,3 +160,656 @@
         
     }
 }
+
+@media screen and (max-width:320px) {
+    .explore-container{
+        max-width: 100%;
+        .explore{
+            width: 100%;
+           margin: 0 auto;
+           padding: 0 5px;
+         
+            h1{
+                width: 100%;
+                font-size: 28px;
+               
+            }
+            h6{
+                width: 100%;
+                
+            }
+            .explore-realway{
+                
+                flex-wrap: wrap;
+               
+                .explore-realway-img{
+                    width: 100%;
+                  
+                    img{
+                        width: 100%;
+                       
+                    }
+                }
+                .explore-realway-text{
+                    width: 100%;
+                    .text-title{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .text-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 18px;
+                               
+                            }
+                            p{
+                                font-size: 15px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+                            
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+           
+    
+            .explore-air{
+                width: 100%;
+                
+                flex-wrap: wrap;
+               
+                .explore-air-img{
+                    width: 100%;
+                
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+                .explore-air-text{
+                    width: 100%;
+                    .air-text-small{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .air-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 17px;
+                                
+                            }
+                            p{
+                                font-size: 14px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
+@media screen and (min-width:321px) and (max-width:480px) {
+    .explore-container{
+        max-width: 100%;
+        .explore{
+            width: 100%;
+           margin: 0 auto;
+           padding: 0 5px;
+         
+            h1{
+                width: 100%;
+                font-size: 28px;
+               
+            }
+            h6{
+                width: 100%;
+                
+            }
+            .explore-realway{
+                
+                flex-wrap: wrap;
+               
+                .explore-realway-img{
+                    width: 100%;
+                  
+                    img{
+                        width: 100%;
+                       
+                    }
+                }
+                .explore-realway-text{
+                    width: 100%;
+                    .text-title{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .text-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 20px;
+                               
+                            }
+                            p{
+                                font-size: 15px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+                            
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+           
+    
+            .explore-air{
+                width: 100%;
+                
+                flex-wrap: wrap;
+               
+                .explore-air-img{
+                    width: 100%;
+                
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+                .explore-air-text{
+                    width: 100%;
+                    .air-text-small{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .air-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 20px;
+                                
+                            }
+                            p{
+                                font-size: 14px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    .explore-container{
+        max-width: 100%;
+        .explore{
+            width: 100%;
+           margin: 0 auto;
+           padding: 0 5px;
+         
+            h1{
+                width: 90%;
+                font-size: 28px;
+                margin: 0 auto;
+               
+            }
+            h6{
+                width: 90%;
+                margin: 20px auto 85px;
+                
+            }
+            .explore-realway{
+                
+                flex-wrap: wrap;
+                justify-content: center;
+               
+                .explore-realway-img{
+                    width: 90%;
+                  
+                  
+                    img{
+                        width: 100%;
+                       
+                    }
+                }
+                .explore-realway-text{
+                    width: 90%;
+                    .text-title{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .text-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 20px;
+                               
+                            }
+                            p{
+                                font-size: 15px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+                            
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+           
+    
+            .explore-air{
+                width: 100%;
+                
+                flex-wrap: wrap;
+                justify-content: center;
+               
+                .explore-air-img{
+                    width: 90%;
+                
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+                .explore-air-text{
+                    width: 90%;
+                    .air-text-small{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .air-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 20px;
+                                
+                            }
+                            p{
+                                font-size: 14px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .explore-container{
+        max-width: 100%;
+     
+        .explore{
+            width: 95%;
+           margin: 0 auto;
+           padding: 0 5px;
+         
+            h1{
+                width: 100%;
+                font-size: 28px;
+                text-align: center;
+               
+            }
+            h6{
+                width: 100%;
+                text-align: center;
+                
+            }
+            .explore-realway{
+                
+               width: 100%;
+                justify-content: center;
+               
+                .explore-realway-img{
+                    width: 80%;
+                  
+                  
+                    img{
+                        width: 100%;
+                       
+                    }
+                }
+                .explore-realway-text{
+                    width: 100%;
+                    .text-title{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .text-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 20px;
+                               
+                            }
+                            p{
+                                font-size: 15px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+                            
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+           
+    
+            .explore-air{
+                width: 100%;
+                justify-content: center;
+               
+                .explore-air-img{
+                    width: 80%;
+                
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+                .explore-air-text{
+                    width: 100%;
+                    .air-text-small{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                       
+                        .air-subtitle{
+                            display: block;
+                          
+                            h2{
+                                font-size: 20px;
+                                
+                            }
+                            p{
+                                font-size: 14px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .explore-container{
+        max-width: 100%;
+     
+        .explore{
+            width: 80%;
+           margin: 0 auto;
+           padding: 0 5px;
+         
+            h1{
+                width: 37%;
+                font-size: 28px;
+             
+               
+            }
+            h6{
+                width: 42%;
+              
+                
+            }
+            .explore-realway{
+                
+          
+                justify-content: center;
+               
+                .explore-realway-img{
+                    width: 35%;
+                  
+                  
+                    img{
+                        width: 100%;
+                       
+                    }
+                }
+                .explore-realway-text{
+                    width: 65%;
+                    .text-title{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .text-subtitle{
+                            display: block;
+                            h2{
+                                font-size: 20px;
+                               
+                            }
+                            p{
+                                font-size: 15px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+                            
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+           
+    
+            .explore-air{
+                width: 100%;
+                justify-content: center;
+               
+                .explore-air-img{
+                    width: 35%;
+                
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+                .explore-air-text{
+                    width: 65%;
+                    .air-text-small{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                       
+                        .air-subtitle{
+                            display: block;
+                          
+                            h2{
+                                font-size: 20px;
+                                
+                            }
+                            p{
+                                font-size: 14px;
+                                
+                            }
+                        }
+                        a{
+                            width: auto;
+                            button{
+                                padding: 13px 30.65px 14px 31px;
+                               border-radius: 25px;
+                               border: none;
+                               background-color: #22B3C1;
+                               color: #FFFFFF;
+                             
+
+    
+                            }
+                        }
+                       
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}

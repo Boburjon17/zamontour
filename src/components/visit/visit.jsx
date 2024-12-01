@@ -20,7 +20,7 @@ const Visit = () => {
                 <h2>{t("intro.dubai")}</h2>
                 <h5>{t("visit.baa")}</h5>
               </div>
-              <a href="#"><button>{t("explore.koproq")}</button></a>
+              <a href="#contact"><button>{t("explore.koproq")}</button></a>
             </div>
             <p>{t("visit.dubai about")}</p>
 
@@ -51,7 +51,7 @@ const Visit = () => {
                 <h2>{t("intro.antaliya")}</h2>
                 <h5>{t("visit.turkiya")}</h5>
               </div>
-              <a href="#"><button>{t("explore.koproq")}</button></a>
+              <a href="#contact"><button>{t("explore.koproq")}</button></a>
             </div>
             <p>{t("visit.antalya about")}</p>
 
@@ -83,7 +83,7 @@ const Visit = () => {
                 <h2>{t("intro.Sharm El-Sheikh")}</h2>
                 <h5>{t("visit.misr")}</h5>
               </div>
-              <a href="#"><button>{t("explore.koproq")}</button></a>
+              <a href="#contact"><button>{t("explore.koproq")}</button></a>
             </div>
             <p>{t("visit.misr about")}</p>
 
@@ -116,7 +116,7 @@ const Visit = () => {
                 <h2>{t("intro.istanbul")}</h2>
                 <h5>{t("visit.turkiya")}</h5>
               </div>
-              <a href="#"><button>{t("explore.koproq")}</button></a>
+              <a href="#contact"><button>{t("explore.koproq")}</button></a>
             </div>
             <p>{t("visit.istanbul about")}</p>
 

@@ -250,6 +250,875 @@
 
 
 }
+
+@media screen  and (max-width:320px) {
+
+  .weeks-container{
+
+    max-width: 100%;
+    .weeks{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    
+      h4{
+        font-size: 30px;
+      
+        text-align: center;
+  
+      }
+      h6{
+        width: 98%;
+       
+      }
+  
+      
+  
+  
+  .weeks-slide{
+    max-width: 100%;
+    
+
+    
+    // border: 2px solid gold;
+  
+    .swiper {
+      width: 89%;
+      height: 100%;
+      margin: 0 auto;
+     
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+     
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .weeks-page{
+        max-width: 100%;
+        display: flex;
+       
+        width:100%;
+        height: 400px;
+        .weeks-page-left{
+          width: 100%;
+          height: 75%;
+          text-align: left;
+        
+        
+  
+  
+        img{
+          width: 70%;
+          
+        }
+          
+        }
+        .weeks-page-right{
+          width: 80%;
+          padding: 20px  10px ;
+          
+          .weeks-city{
+            h1{ 
+              
+            font-size: 18px;
+            }
+            h2{
+            
+              font-size: 18px;
+            }
+          }
+          .weeks-order{
+            
+            margin: 5px 0;
+  
+            span{
+             
+              gap: 5px;
+              
+              i{
+             
+                font-size: 14px;
+               
+              }
+              h3  {
+               
+             font-size: 14px;
+               
+              }
+            }
+            p{
+           
+                 font-size: 14px;
+               
+            }
+  
+          }
+  
+          hr{
+           
+            margin: 20px 0;
+        
+          }
+  
+          .weeks-includes{
+            width: 100%;
+            h1{
+              font-size: 15px;
+              
+            }
+  
+            ul{
+              
+              li{
+                gap: 7px;
+                font-size: 13px;
+                
+                
+               
+              }
+            }
+          
+          }
+  
+  
+        }
+      }
+    }
+  }  
+  
+  .weeks-pagination{
+  
+    gap: 10px;
+
+   
+    
+   
+  }
+      
+     
+    }
+  
+    hr{
+      width: 100%;
+      border: 1px solid #AFAFAF;
+      margin: 70px 0;
+    }
+  
+  
+  
+  }
+
+}
+@media screen  and (min-width:321px) and (max-width:480px) {
+
+  .weeks-container{
+
+    max-width: 100%;
+    .weeks{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+      h4{
+        font-size: 30px;
+      
+        text-align: center;
+  
+      }
+      h6{
+        width: 98%;
+       
+      }
+  
+      
+  
+  
+  .weeks-slide{
+    max-width: 100%;
+    
+
+    
+    // border: 2px solid gold;
+  
+    .swiper {
+      width: 89%;
+      height: 100%;
+      margin: 0 auto;
+     
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+     
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .weeks-page{
+        max-width: 100%;
+        display: flex;
+       
+        width:100%;
+        height: 400px;
+        .weeks-page-left{
+          width: 100%;
+          height: 75%;
+          text-align: left;
+        
+        
+  
+  
+        img{
+          width: 70%;
+          
+        }
+          
+        }
+        .weeks-page-right{
+          width: 80%;
+          padding: 30px 20px ;
+          
+          .weeks-city{
+            h1{ 
+              
+            font-size: 20px;
+            }
+            h2{
+            
+              font-size: 20px;
+            }
+          }
+          .weeks-order{
+            
+            margin: 5px 0;
+  
+            span{
+             
+              gap: 10px;
+              
+              i{
+             
+                font-size: 15px;
+               
+              }
+              h3  {
+               
+             font-size: 15px;
+               
+              }
+            }
+            p{
+           
+                 font-size: 15px;
+               
+            }
+  
+          }
+  
+          hr{
+           
+            margin: 24px 0;
+        
+          }
+  
+          .weeks-includes{
+            width: 100%;
+            h1{
+              font-size: 15px;
+              
+            }
+  
+            ul{
+              
+              li{
+                gap: 10px;
+                font-size: 14px;
+                
+                
+               
+              }
+            }
+          
+          }
+  
+  
+        }
+      }
+    }
+  }  
+  
+  .weeks-pagination{
+  
+    gap: 10px;
+
+   
+    
+   
+  }
+      
+     
+    }
+  
+    hr{
+      width: 100%;
+      border: 1px solid #AFAFAF;
+      margin: 70px 0;
+    }
+  
+  
+  
+  }
+
+}
+@media screen  and (min-width:481px) and (max-width:768px) {
+
+  .weeks-container{
+
+    max-width: 100%;
+    .weeks{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+      h4{
+        font-size: 30px;
+      
+        text-align: center;
+  
+      }
+      h6{
+        width: 98%;
+       
+      }
+  
+      
+  
+  
+  .weeks-slide{
+    max-width: 100%;
+    
+
+    
+    // border: 2px solid gold;
+  
+    .swiper {
+      width: 80%;
+      height: 100%;
+      margin: 0 auto;
+     
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+     
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .weeks-page{
+        max-width: 100%;
+        display: flex;
+       
+        width:100%;
+        height: 400px;
+        .weeks-page-left{
+          width: 100%;
+          height: 75%;
+          text-align: left;
+        
+        
+  
+  
+        img{
+          width: 70%;
+          
+        }
+          
+        }
+        .weeks-page-right{
+          width: 80%;
+          padding: 30px 20px ;
+          
+          .weeks-city{
+            h1{ 
+              
+            font-size: 20px;
+            }
+            h2{
+            
+              font-size: 20px;
+            }
+          }
+          .weeks-order{
+            
+            margin: 5px 0;
+  
+            span{
+             
+              gap: 10px;
+              
+              i{
+             
+                font-size: 15px;
+               
+              }
+              h3  {
+               
+             font-size: 15px;
+               
+              }
+            }
+            p{
+           
+                 font-size: 15px;
+               
+            }
+  
+          }
+  
+          hr{
+           
+            margin: 24px 0;
+        
+          }
+  
+          .weeks-includes{
+            width: 100%;
+            h1{
+              font-size: 15px;
+              
+            }
+  
+            ul{
+              
+              li{
+                gap: 10px;
+                font-size: 14px;
+                
+                
+               
+              }
+            }
+          
+          }
+  
+  
+        }
+      }
+    }
+  }  
+  
+  .weeks-pagination{
+  
+    gap: 10px;
+
+   
+    
+   
+  }
+      
+     
+    }
+  
+    hr{
+      width: 100%;
+      border: 1px solid #AFAFAF;
+      margin: 70px 0;
+    }
+  
+  
+  
+  }
+
+}
+@media screen  and (min-width:769px) and (max-width:1024px) {
+
+  .weeks-container{
+
+    max-width: 100%;
+    .weeks{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    
+      h4{
+        font-size: 30px;
+      
+        text-align: center;
+  
+      }
+      h6{
+        width: 80%;
+       
+      }
+  
+      
+  
+  
+  .weeks-slide{
+    max-width: 100%;
+    
+
+    
+    // border: 2px solid gold;
+  
+    .swiper {
+      width: 85%;
+      height: 100%;
+      margin: 0 auto;
+     
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+     
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .weeks-page{
+        max-width: 100%;
+        display: flex;
+       
+        width:100%;
+        height: 420px;
+        .weeks-page-left{
+          width: 100%;
+          height: 75%;
+          text-align: left;
+        
+        
+  
+  
+        img{
+          width: 70%;
+          
+        }
+          
+        }
+        .weeks-page-right{
+          width: 80%;
+          padding: 30px 20px ;
+          
+          .weeks-city{
+            h1{ 
+              
+            font-size: 20px;
+            }
+            h2{
+            
+              font-size: 20px;
+            }
+          }
+          .weeks-order{
+            
+            margin: 5px 0;
+  
+            span{
+             
+              gap: 10px;
+              
+              i{
+             
+                font-size: 15px;
+               
+              }
+              h3  {
+               
+             font-size: 15px;
+               
+              }
+            }
+            p{
+           
+                 font-size: 15px;
+               
+            }
+  
+          }
+  
+          hr{
+           
+            margin: 24px 0;
+        
+          }
+  
+          .weeks-includes{
+            width: 100%;
+            h1{
+              font-size: 15px;
+              
+            }
+  
+            ul{
+              
+              li{
+                gap: 10px;
+                font-size: 14px;
+                
+                
+               
+              }
+            }
+          
+          }
+  
+  
+        }
+      }
+    }
+  }  
+  
+  .weeks-pagination{
+  
+    gap: 10px;
+
+   
+    
+   
+  }
+      
+     
+    }
+  
+    hr{
+      width: 100%;
+      border: 1px solid #AFAFAF;
+      margin: 70px 0;
+    }
+  
+  
+  
+  }
+
+}
+@media screen  and (min-width:1025px) and (max-width:1200px) {
+
+  .weeks-container{
+
+    max-width: 100%;
+    .weeks{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    
+      h4{
+        font-size: 30px;
+      
+        text-align: center;
+  
+      }
+      h6{
+        width: 80%;
+       
+      }
+  
+      
+  
+  
+  .weeks-slide{
+    max-width: 100%;
+    
+
+    
+    // border: 2px solid gold;
+  
+    .swiper {
+      width: 91%;
+      height: 100%;
+      margin: 0 auto;
+     
+      
+    
+        .swiper-pagination{
+          display: none !important;
+    
+      }
+      
+    }
+    .swiper-slide {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+     
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .weeks-page{
+        max-width: 100%;
+        display: flex;
+       
+        width:100%;
+        height: 420px;
+        .weeks-page-left{
+          width: 100%;
+          height: 75%;
+          text-align: left;
+        
+        
+  
+  
+        img{
+          width: 70%;
+          
+        }
+          
+        }
+        .weeks-page-right{
+          width: 80%;
+          padding: 30px 15px ;
+          
+          .weeks-city{
+            h1{ 
+              
+            font-size: 20px;
+            }
+            h2{
+            
+              font-size: 20px;
+            }
+          }
+          .weeks-order{
+            
+            margin: 5px 0;
+  
+            span{
+             
+              gap: 10px;
+              
+              i{
+             
+                font-size: 15px;
+               
+              }
+              h3  {
+               
+             font-size: 15px;
+               
+              }
+            }
+            p{
+           
+                 font-size: 15px;
+               
+            }
+  
+          }
+  
+          hr{
+           
+            margin: 24px 0;
+        
+          }
+  
+          .weeks-includes{
+            width: 100%;
+            h1{
+              font-size: 15px;
+              
+            }
+  
+            ul{
+              
+              li{
+                gap: 10px;
+                font-size: 14px; 
+                
+               
+              }
+            }
+          
+          }
+  
+  
+        }
+      }
+    }
+  }  
+  
+  .weeks-pagination{
+  
+    gap: 10px;
+
+   
+    
+   
+  }
+      
+     
+    }
+  
+    hr{
+      width: 100%;
+      border: 1px solid #AFAFAF;
+      margin: 70px 0;
+    }
+  
+  
+  
+  }
+
+}
+
  
   
  

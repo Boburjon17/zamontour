@@ -12,7 +12,7 @@ const Footer = () => {
         <p>{t("footer.unda")}</p>
         </div>
 
-        <a href="#"><button>{t("footer.boglanish")}</button></a>
+        <a href="#contact"><button>{t("footer.boglanish")}</button></a>
        
       </div>
       <div className="footer-end">
