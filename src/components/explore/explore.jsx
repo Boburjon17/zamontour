@@ -13,7 +13,7 @@ const Explore = () => {
             <h6>{t("explore.har bir shahar")}</h6>
             <div className="explore-realway">
                 <div className="explore-realway-img">
-                    <img src="https://zamontour.uz/assets/images/afr.jpg" alt="" />
+                    <img src="/images/explore-railway.jpg" alt="" />
                 </div>
                 <div className="explore-realway-text">
                     <div className="text-title">
@@ -35,7 +35,7 @@ const Explore = () => {
             <hr />
             <div className="explore-air">
                 <div className="explore-air-img">
-                    <img src="https://zamontour.uz/assets/images/airplane.jpg" alt="" />
+                    <img src="/images/explore-air.jpg" alt="" />
                 </div>
                 <div className="explore-air-text">
                     <div className="air-text-small">

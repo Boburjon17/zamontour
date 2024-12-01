@@ -82,7 +82,7 @@ const Visa = () => {
         <SwiperSlide> 
           <div className="visa-page">
             <div className="visa-page-left">
-              <img src="https://zamontour.uz/assets/images/china.jpg" alt="" />
+              <img src="/images/visa-china.jpg" alt="" />
             </div>
             <div className="visa-page-right">
               <div className="visa-city">
@@ -113,7 +113,7 @@ const Visa = () => {
         <SwiperSlide> 
           <div className="visa-page">
             <div className="visa-page-left">
-              <img src="https://zamontour.uz/assets/images/hongkong.jpg" alt="" />
+              <img src="/images/visa-kong.jpg" alt="" />
             </div>
             <div className="visa-page-right">
               <div className="visa-city">
@@ -144,7 +144,7 @@ const Visa = () => {
         <SwiperSlide> 
           <div className="visa-page">
             <div className="visa-page-left">
-              <img src="https://zamontour.uz/assets/images/europe.jpeg" alt="" />
+              <img src="/images/visa-europen.jpg" alt="" />
             </div>
             <div className="visa-page-right">
               <div className="visa-city">
@@ -177,7 +177,7 @@ const Visa = () => {
         <SwiperSlide> 
           <div className="visa-page">
             <div className="visa-page-left">
-              <img src="https://zamontour.uz/assets/images/india.jpg" alt="" />
+              <img src="/images/visa-india.jpg" alt="" />
             </div>
             <div className="visa-page-right">
               <div className="visa-city">
@@ -210,7 +210,7 @@ const Visa = () => {
         <SwiperSlide> 
           <div className="visa-page">
             <div className="visa-page-left">
-              <img src="https://zamontour.uz/assets/images/japan.jpg" alt="" />
+              <img src="/images/visa-japan.jpg" alt="" />
             </div>
             <div className="visa-page-right">
               <div className="visa-city">
@@ -243,7 +243,7 @@ const Visa = () => {
         <SwiperSlide> 
           <div className="visa-page">
             <div className="visa-page-left">
-              <img src="https://zamontour.uz/assets/images/saudi.jpg" alt="" />
+              <img src="/images/visa-saudi.jpg" alt="" />
             </div>
             <div className="visa-page-right">
               <div className="visa-city">
@@ -276,7 +276,7 @@ const Visa = () => {
         <SwiperSlide> 
           <div className="visa-page">
             <div className="visa-page-left">
-              <img src="https://zamontour.uz/assets/images/oman.jpg" alt="" />
+              <img src="/images/visa-oman.jpg" alt="" />
             </div>
             <div className="visa-page-right">
               <div className="visa-city">

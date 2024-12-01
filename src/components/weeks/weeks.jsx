@@ -84,7 +84,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/usa1.jpg" alt="" />
+              <img src="/images/week-usa.jpg" alt="" />
             </div>
             <div className="weeks-page-right">
               <div className="weeks-city">
@@ -118,7 +118,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/eng.jpg" alt="" /></div>
+              <img src="/images/week-england.jpg" alt="" /></div>
             <div className="weeks-page-right">
               <div className="weeks-city">
               <h1>{t("weeks.angliya")}</h1>
@@ -152,7 +152,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/cand.jpg" alt="" />
+              <img src="/images/week-canada.jpg" alt="" />
             </div>
             <div className="weeks-page-right">
               <div className="weeks-city">
@@ -187,7 +187,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/europe2.jpg" alt="" />
+              <img src="/images/week-europen.jpg" alt="" />
             </div>
             <div className="weeks-page-right">
               <div className="weeks-city">
@@ -223,7 +223,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/deals-04.jpg" alt="" />
+              <img src="/images/week-istanbul.jpg" alt="" />
             </div>
             <div className="weeks-page-right">
               <div className="weeks-city">
@@ -259,7 +259,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/offers-02.jpg" alt="" />
+              <img src="/images/week-dubai.jpg" alt="" />
             </div>
             <div className="weeks-page-right">
               <div className="weeks-city">
@@ -295,7 +295,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/deals-01.jpg" alt="" />
+              <img src="/images/week-antalya.jpg" alt="" />
             </div>
             <div className="weeks-page-right">
               <div className="weeks-city">
@@ -331,7 +331,7 @@ const Weeks = () => {
         <SwiperSlide> 
           <div className="weeks-page">
             <div className="weeks-page-left">
-              <img src="https://zamontour.uz/assets/images/offers-01.jpg" alt="" />
+              <img src="/images/week-sharm.jpg" alt="" />
             </div>
             <div className="weeks-page-right">
               <div className="weeks-city">

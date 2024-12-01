@@ -12,7 +12,7 @@ const Visit = () => {
 
         <div className="visit-page">
           <div className="visit-page-img">
-            <img src="https://zamontour.uz/assets/images/dubai2.jpg" alt="" />
+            <img src="/images/visit-dubai.jpg" alt="" />
           </div>
           <div className="visit-page-text">
             <div className="text-title">
@@ -43,7 +43,7 @@ const Visit = () => {
 
         <div className="visit-page">
           <div className="visit-page-img">
-            <img src="https://zamontour.uz/assets/images/country-02.jpg" alt="" />
+            <img src="/images/visit-antalya.jpg" alt="" />
           </div>
           <div className="visit-page-text">
             <div className="text-title">
@@ -75,7 +75,7 @@ const Visit = () => {
 
         <div className="visit-page">
           <div className="visit-page-img">
-            <img src="https://zamontour.uz/assets/images/sharm2.jpg" alt="" />
+            <img src="/images/visit-sharm.jpg" alt="" />
           </div>
           <div className="visit-page-text">
             <div className="text-title">
@@ -108,7 +108,7 @@ const Visit = () => {
 
         <div className="visit-page">
           <div className="visit-page-img">
-            <img src="https://zamontour.uz/assets/images/istanbul3.jpg" alt="" />
+            <img src="/images/visit-istanbul.jpg" alt="" />
           </div>
           <div className="visit-page-text">
             <div className="text-title">
