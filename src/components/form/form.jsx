@@ -69,7 +69,7 @@ const Form = () => {
                 </label>
                 <label htmlFor="">
                     <p>{t("maps.tel raqam")}</p>
-                    <input type="tel" defaultValue="+998"  ref={phoneRef} id='phone' maxLength={13} />
+                    <input type="tel" defaultValue="+998"  ref={phoneRef} id='phone' maxLength={14} />
                 </label>
 
                 </div>
