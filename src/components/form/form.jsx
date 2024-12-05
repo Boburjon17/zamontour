@@ -6,6 +6,7 @@ import axios from 'axios'
 const Form = () => {
     const {t, i18n} = useTranslation()
     const [loading, SetLoading]= useState(false)
+      const [formErrors, setFormErrors] = useState({});
 
     const nameRef= useRef(null)
     const phoneRef= useRef(null)
@@ -21,16 +22,32 @@ const Form = () => {
         const chat_id = '1346734598'
         const url= `https://api.telegram.org/bot${token}/sendMessage`
 
-        const name= nameRef.current.value
-        const phone= phoneRef.current.value
+        const name= nameRef.current.value.trim()
+        const phone= phoneRef.current.value.trim()
         const person =personRef.current.value
         const adress =adressRef.current.value
-        const visa =visaRef.current.value
-        const date =dateRef.current.value
+        const visa =visaRef.current.value;
+        const date =dateRef.current.value;
+
+        const errors = {};
+        if (!name) errors.name = t("maps.ismni kiriting");
+        if (!phone) errors.phone = t("maps.tel raqamni kiriting");
+        if (!date) errors.date = t("maps.sana kiriting");
+        if (!adress) errors.adress = t("maps.manzilni tanlang");
+        if (!visa) errors.visa = t("maps.vizani tanlang");
+    
+        // Xatolik bo'lsa, yuborishni to'xtatish
+        if (Object.keys(errors).length > 0) {
+          setFormErrors(errors);
+          SetLoading(false);
+          return;
+        }
+    
+        setFormErrors({});
 
 
         const messageContent= `Ismi: ${name} \nFamilyasi: ${phone} \nNecha kishi:${person} \nUchish sanasi:${date} \nAdress:${adress} \n Visa:${visa}`
-        // const phone= document.getElementById("phone").value
+  
     
         axios({
             url:url,
